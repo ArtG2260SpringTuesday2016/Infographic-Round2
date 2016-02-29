@@ -51,17 +51,31 @@ var years = function(ar) {
 //This function takes in an array of Site_Energy_Use
 //and converts it into an array of numbers
 //omitting any that appear as "Not Available"
-var convert = function(ar) {
-  var newAr = [];
-  for (i = 0; i < ar.length; i++) {
-    if (ar[i] != "Not Available") {
-      append(newAr, parseInt(ar[i].replace("* ", "")));
-    }
-  }
+//This would be done in one function using JQuery
+//but as /*| |,/g does not work as /* is a function
+//I will have to separate it into two functions
+//convert1 removes "* " from a string
+//and convert running convert1 over an array
+//in addition to removing all commas
+var convert1 = function(st) {
+  var newAr = "";
+  newAr = st.replace("* ", "");
   return newAr;
 }
 
+
 function setup() {
+
+  var convert = function(ar) {
+    var newAr = [];
+    for (i = 0; i < ar.length; i++) {
+      if (ar[i] != "Not Available") {
+        append(newAr, Number(convert1(ar[i].replace(/,/g, ""))))
+      }
+    }
+    return newAr;
+  }
+
   years(data);
   Old = convert(Old);
   New = convert(New);
@@ -70,7 +84,8 @@ function setup() {
   console.log(New);
   console.log("hello".replace("h", "f"));
   console.log(Number("      1".replace(" ", "")));
-  console.log(parseInt("5,000,000".replace(/,/g,"")));
+  console.log((convert1("*  g")).replace("g", "f"));
+  console.log(convert1("Not Available"));
 
 
 
