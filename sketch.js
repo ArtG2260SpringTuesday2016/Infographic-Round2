@@ -38,43 +38,43 @@ var New = [];
 // Old (older than 50 years) or
 // New (equal or less than 50 years old)
 
-var years = function(ar){
-  for(i = 0; i < ar.length; i++){
-   if(ar[i].Year_Built < oldYear){
-     append(Old, ar[i].Site_Energy_Use)
-   }
-   else{
-     append(New, ar[i].Site_Energy_Use)
-   }
+var years = function(ar) {
+  for (i = 0; i < ar.length; i++) {
+    if (ar[i].Year_Built < oldYear) {
+      append(Old, ar[i].Site_Energy_Use)
+    } else {
+      append(New, ar[i].Site_Energy_Use)
+    }
   }
 }
 
 //This function takes in an array of Site_Energy_Use
 //and converts it into an array of numbers
 //omitting any that appear as "Not Available"
-var convert = function(ar){
+var convert = function(ar) {
   var newAr = [];
-  for(i = 0; i < ar.length; i++){
-  if (ar[i] != "Not Available"){
-    append(newAr, (Number(ar[i].replace("* ",""))))
-  }
+  for (i = 0; i < ar.length; i++) {
+    if (ar[i] != "Not Available") {
+      append(newAr, parseInt(ar[i].replace("* ", "")));
+    }
   }
   return newAr;
 }
 
-function setup(){
-years(data);
-Old = convert(Old);
-New = convert(New);
+function setup() {
+  years(data);
+  Old = convert(Old);
+  New = convert(New);
 
-console.log(Old);
-console.log(New);
-console.log("hello".replace("h","f"));
-console.log(Number(" 1".replace(" ","")));
+  console.log(Old);
+  console.log(New);
+  console.log("hello".replace("h", "f"));
+  console.log(Number("      1".replace(" ", "")));
+  console.log(Number(+"5,000,000".replace(",","")));
 
 
 
-//Compare old:energy to new:energy; two functions; one with all old energies,
-//one with all new energies
+  //Compare old:energy to new:energy; two functions; one with all old energies,
+  //one with all new energies
 
 }
