@@ -49,10 +49,30 @@ var years = function(ar){
   }
 }
 
+//This function takes in an array of Site_Energy_Use
+//and converts it into an array of numbers
+//omitting any that appear as "Not Available"
+var convert = function(ar){
+  var newAr = [];
+  for(i = 0; i < ar.length; i++){
+  if (ar[i] != "Not Available"){
+    append(newAr, (Number(ar[i].replace("* ",""))))
+  }
+  }
+  return newAr;
+}
+
 function setup(){
 years(data);
+Old = convert(Old);
+New = convert(New);
+
 console.log(Old);
 console.log(New);
+console.log("hello".replace("h","f"));
+console.log(Number(" 1".replace(" ","")));
+
+
 
 //Compare old:energy to new:energy; two functions; one with all old energies,
 //one with all new energies
