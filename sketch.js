@@ -258,3 +258,16 @@ function calculateAvg(snowInJanuary) {
     }
     
   }
+  var actualData= calculateAvg(snowInJanuary);
+
+for (var key in actualData) {
+   var day = key;
+  var avgValue = actualData[key];
+  
+  drawRectangle(day, avgValue);
+  
+}
+function drawRectangle(day, value) {
+  rect(day * 25, 0, 10, value * 100)
+}
+console.log(calculateAvg(snowInJanuary));
