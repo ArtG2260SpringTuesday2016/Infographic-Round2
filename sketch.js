@@ -48,6 +48,14 @@ var years = function(ar) {
   }
 }
 
+var sum = function(ar) {
+  var total = 0;
+  for (i = 0; i < ar.length; i++) {
+    total += ar[i];
+  }
+  return total;
+}
+
 //This function takes in an array of Site_Energy_Use
 //and converts it into an array of numbers
 //omitting any that appear as "Not Available"
@@ -63,8 +71,9 @@ var convert1 = function(st) {
   return newAr;
 }
 
-
 function setup() {
+  createCanvas(600, 600);
+  background("White");
 
   var convert = function(ar) {
     var newAr = [];
@@ -80,12 +89,26 @@ function setup() {
   Old = convert(Old);
   New = convert(New);
 
-  console.log(Old);
-  console.log(New);
-  console.log("hello".replace("h", "f"));
-  console.log(Number("      1".replace(" ", "")));
-  console.log((convert1("*  g")).replace("g", "f"));
-  console.log(convert1("Not Available"));
+  var OldAvg = sum(Old) / Old.length;
+  var NewAvg = sum(New) / New.length;
+  var size = 500000
+
+  textSize(25);
+  fill("Black");
+  strokeWeight(0);
+  var oldenergy = ellipse(width / 3, height / 2, OldAvg / size, OldAvg / size);
+  oldenergy;
+  fill("White")
+  strokeWeight(1);
+  var newenergy = ellipse(width / 1.5, height / 2, NewAvg / size, NewAvg / size);
+  newenergy;
+
+  fill("Blue");
+  text(round(OldAvg), width / 4, 50);
+  text(round(NewAvg), width / 1.75, 50);
+
+
+
 
 
 
