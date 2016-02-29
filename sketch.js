@@ -240,5 +240,21 @@ var snowInJanuary = [
     "31" : 0.000   
   }
 ];
-//from here I am going to use loops, and create something that calculates the average of all the snow
-//each day 
+
+function calculateAvg(snowInJanuary) {
+  
+  var avgSnowfall = {};
+   // array for loop
+  for (var i = 0; i < snowInJanuary.length; i++) {
+    var currentYear = snowInJanuary[i];
+    for (var key in currentYear) {
+      if (key in avgSnowfall) {
+        avgSnowfall[key].push(currentYear[key]);
+      }
+      else {
+        avgSnowfall[key] = [ currentYear[key] ];
+      }
+      
+    }
+    
+  }
