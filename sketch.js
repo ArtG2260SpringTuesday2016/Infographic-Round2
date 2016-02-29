@@ -25,4 +25,36 @@
 //Site_Energy_Use and Year_Built will be used
 //in order to compare amount of energy used to the age of the building
 
-console.log(data);
+var currentYear = 2016;
+var age = 50;
+var oldYear = currentYear - age;
+//These variables will hold the information 
+//for either new or old buildings
+var Old = [];
+var New = [];
+//This function takes in data and 
+//seperates the Site_Energy_Use based on
+// the Year_Built:
+// Old (older than 50 years) or
+// New (equal or less than 50 years old)
+
+var years = function(ar){
+  for(i = 0; i < ar.length; i++){
+   if(ar[i].Year_Built < oldYear){
+     append(Old, ar[i].Site_Energy_Use)
+   }
+   else{
+     append(New, ar[i].Site_Energy_Use)
+   }
+  }
+}
+
+function setup(){
+years(data);
+console.log(Old);
+console.log(New);
+
+//Compare old:energy to new:energy; two functions; one with all old energies,
+//one with all new energies
+
+}
