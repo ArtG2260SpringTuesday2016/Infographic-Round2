@@ -70,7 +70,7 @@ function setup() {
   console.log(New);
   console.log("hello".replace("h", "f"));
   console.log(Number("      1".replace(" ", "")));
-  console.log(Number(+"5,000,000".replace(",","")));
+  console.log(parseInt("5,000,000".replace(/,/g,"")));
 
 
 
