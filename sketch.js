@@ -1,3 +1,5 @@
+var stars = [];
+
 var myData = [
   {
     "date": "filler",
@@ -145,8 +147,41 @@ var graph = function (someData) {
 function setup() {
   createCanvas(1000, 500)
   background(0)
+
+// Drawing Random Stars
+    for (var i = 0; i < 100; i++){
+      stars[i] = new Star();
+    }
+    for (var i = 0; i < stars.length; i++){
+      stars[i].move();
+      stars[i].display();
+    }
+
+    function Star(){
+        this.x = random(0, width);
+        this.y = random(0, height);
+
+        this.display = function (){
+          noStroke()
+          fill(255)
+          ellipse(this.x, this.y, 5, 5);
+      }
+      this.move = function(){
+        this.x = this.x + random (0, 0);
+        this.y = this.y + random (0, 0);
+      }
+    }
+
+// Adding Rocketship
+noStroke()
+fill(255)
+ellipse(200, 100, 100, 100)
+fill(220)
+ellipse(220, 80, 30, 30)
+ellipse(180, 70, 22, 22)
+ellipse(180, 100, 15, 15)
+// Creating Histogram
   noStroke()
-// Adding color to histogram
   fill(34,148,143)
   graph(myData);
 
@@ -161,8 +196,11 @@ function setup() {
 // Adding Line at 0
   stroke(300);
   line(200, 250, 800, 250);
+
 }
 
 function draw() {
+
+
 
 }
