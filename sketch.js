@@ -1,4 +1,8 @@
 // Snowfall in inches in Boston, MA on each day in January over the included years (2010-2016)
+function setup(){
+  createCanvas(1000, 1000)
+}
+
 var snowInJanuary = [
   {
   //  "year" : 2016,
@@ -263,11 +267,10 @@ function calculateAvg(snowInJanuary) {
 for (var key in actualData) {
    var day = key;
   var avgValue = actualData[key];
-  
   drawRectangle(day, avgValue);
-  
 }
 function drawRectangle(day, value) {
+  fill(200, 10, 20)
   rect(day * 25, 0, 10, value * 100)
 }
 console.log(calculateAvg(snowInJanuary));
