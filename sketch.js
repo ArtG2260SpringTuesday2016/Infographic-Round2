@@ -1,8 +1,4 @@
 // Snowfall in inches in Boston, MA on each day in January over the included years (2010-2016)
-function setup(){
-  createCanvas(1000, 1000)
-}
-
 var snowInJanuary = [
   {
   //  "year" : 2016,
@@ -245,13 +241,24 @@ var snowInJanuary = [
   }
 ];
 
+
 function calculateAvg(snowInJanuary) {
   
   var avgSnowfall = {};
-   // array for loop
+  
+  // array for loop
   for (var i = 0; i < snowInJanuary.length; i++) {
+    
+    // represents a dictionary for the current year 
     var currentYear = snowInJanuary[i];
+  }
+    // dictionary for loops
     for (var key in currentYear) {
+      // key == "year", currentYear[key] == 2016
+      
+      // check if key already exists in dictionary 
+      // -- if yes then update the value to be the new avg
+      // if no then add the new key and value
       if (key in avgSnowfall) {
         avgSnowfall[key].push(currentYear[key]);
       }
@@ -262,15 +269,69 @@ function calculateAvg(snowInJanuary) {
     }
     
   }
-  var actualData= calculateAvg(snowInJanuary);
+  
+  // update dictionary arrays to be avgs and not arrays
+  // (go through each element in the array and add it together. Then divide this total by the number of elements in the array to get the average. Then overwrite the value in the dictionary to be this new avg instead of an array of numbers.)
+  
+  /*
+  
+  example
+  avgSnowfall = {
+  "1" : [1,2,3,4,5],   ->    "1" : 3,
+  "2" : [5.66, 0.000, 4.6000, -9.9999]
+  }
+   
+  */
+  
+  // go through our new dictionary
+  for(var key in avgSnowfall) {
+    
+    var valuesInArray = avgSnowfall[key];
+    
+  //  console.log('key: ' + key + ' -- ' + valuesInArray);
+    
+    var divisor = valuesInArray.length;
+    
+    var dividend = 0;
+    
+    // go through the array and sum up each element
+    for (var i = 0; i < valuesInArray.length; i++) {
+      if(valuesInArray[i] != -9999.000) {
+        dividend += valuesInArray[i];
+      }
+    }
+    
+    // get the average for this day
+    var avg = dividend/divisor;
+    
+    // update the value in the key value pair of the dictionary
+    avgSnowfall[key] = avg;
+  }
+  
+  return avgSnowfall;
+  
+}
+
+
+//console.log(0.000 + 0.000);
+
+var actualData= calculateAvg(snowInJanuary);
 
 for (var key in actualData) {
-   var day = key;
+  
+  var day = key;
   var avgValue = actualData[key];
+  
   drawRectangle(day, avgValue);
+  
 }
+
+
 function drawRectangle(day, value) {
-  fill(200, 10, 20)
   rect(day * 25, 0, 10, value * 100)
 }
+
+
 console.log(calculateAvg(snowInJanuary));
+
+
