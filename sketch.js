@@ -6,7 +6,7 @@ function setup() {
 }
 
 function draw() {
-  
+  kanye();
 }
 
 
@@ -19,20 +19,34 @@ function draw() {
   ];
   
   for(var i = 0; i < discography.length; i++) {
-    fill('pink');
+    fill('hotpink');
     textSize(30);
     text(discography[i].album, discography[i].albumLoc[0], discography[i].albumLoc[1], 600, 600);
     
     textSize(10);
-    text(discography[i].song, discography[i].albumLoc[0] + 50, discography[i].albumLoc[1]);
+    text(discography[i].song, discography[i].albumLoc[0] + 50, discography[i].albumLoc[1], 600, 600);
     
     for(var j = 0; j < discography.length; j++) {
       var circDim = 100
       noStroke();
-      fill('yellow');
+      fill('hotpink');
       ellipse((discography[i].albumLoc[0] + 30),(discography[i].albumLoc[1] - 150),circDim,circDim);
       
     } 
   } 
 }
+/*
+ for(i = 0; i < gdpArray.length; i++){
+    fill('white');
+    textSize(10);
+    text(gdpArray[i].name, gdpArray[i].textLoc[0], gdpArray[i].textLoc[1], 600,600)
+    text(gdpArray[i].gdpText, gdpArray[i].textLoc[0], gdpArray[i].textLoc[1] + 20, 600,600)
 
+    for(j = 0; j < gdpArray.length; j++){
+      var circDim = gdpArray[i].gdp/2000;
+      noStroke();
+      fill('yellow');
+      ellipse((gdpArray[i].textLoc[0] + 30),(gdpArray[i].textLoc[1] - 150),circDim,circDim);
+      //console.log(gdpArray[i].gdp[j]);
+    }
+  }*/
