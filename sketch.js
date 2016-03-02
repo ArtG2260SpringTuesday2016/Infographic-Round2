@@ -30,7 +30,8 @@ function setup() {
     stars[i].move();
     stars[i].display();
   }
-  function Star(){
+
+function Star(){
   this.x = random(0, width);
   this.y = random(0, height);
     this.display = function (){
@@ -46,18 +47,20 @@ function setup() {
 
 // Adding Moon
   noStroke()
-  fill(255)
+  fill(255) // White Moon
   ellipse(moon.x, moon.y, moon.size, moon.size) // 200,100,100,100
-  fill(220)
+  fill(220) // Grey Circles
   ellipse(moon.x + 20, moon.y - 20, moon.size - 70, moon.size - 70)
   ellipse(moon.x - 20, moon.y - 30, moon.size - 78, moon.size - 78)
   ellipse(moon.x - 20, moon.y, moon.size - 85, moon.size - 85)
+
 // Creating Histogram
   noStroke()
-  fill(34,148,143)
+  fill(34,148,143) // Blue for Histogram
   graph(myData);
 
-//Adding Text to Corner
+
+// Adding Text to Corner
   textSize(20)
   text("David Bowie in Google Searches", 617, 70),
   fill(34,148,143),
