@@ -1,4 +1,4 @@
-var myData = [
+var stateArea = [
   {"state":"Alaska", "area":571951.26},
 {"state":"Texas", "area":261797.12},
 {"state":"California", "area":155959.34},
@@ -49,531 +49,117 @@ var myData = [
  {"state":"Connecticut", "area":4844.80},
  {"state":"Delaware", "area":1953.56},
  {"state":"Rhode Island", "area":1044.93},
- {"state":"Washington D. C.", "area":61.4}
 ];
 
 
 var crimeRates = [
-  {
-    "State":"New Mexico",
-    "City":"Albuquerque",
-    "Population":"558,874",
-    "ViolentCrime":"882.8"
-  },
-  {
-    "State":"California",
-    "City":"Anaheim",
-    "Population":"346,956",
-    "ViolentCrime":"317.3"
-  },
-  {
-    "State":"Alaska",
-    "City":"Anchorage",
-    "Population":"301,306",
-    "ViolentCrime":"864.6"
-  },
-  {
-    "State":"Texas",
-    "City":"Arlington",
-    "Population":"382,976",
-    "ViolentCrime":"484.1"
-  },
-  {
-    "State":"Georgia",
-    "City":"Atlanta",
-    "Population":"454,363",
-    "ViolentCrime":"1,227.40"
-  },
-  {
-    "State":"Colorado",
-    "City":"Aurora",
-    "Population":"350,948",
-    "ViolentCrime":"412.6"
-  },
-  {
-    "State":"Texas",
-    "City":"Austin",
-    "Population":"903,924",
-    "ViolentCrime":"396.2"
-  },
-  {
-    "State":"California",
-    "City":"Bakersfield",
-    "Population":"367,406",
-    "ViolentCrime":"456.7"
-  },
-  {
-    "State":"Maryland",
-    "City":"Baltimore",
-    "Population":"623,513",
-    "ViolentCrime":"1,338.50"
-  },
-  {
-    "State":"Massachusetts",
-    "City":"Boston",
-    "Population":"654,413",
-    "ViolentCrime":"725.7"
-  },
-  {
-    "State":"New York",
-    "City":"Buffalo",
-    "Population":"258,419",
-    "ViolentCrime":"1,228.20"
-  },
-  {
-    "State":"Arizona",
-    "City":"Chandler",
-    "Population":"252,369",
-    "ViolentCrime":"184.7"
-  },
-  {
-    "State":"North Carolina",
-    "City":"Charlotte-Mecklenburg",
-    "Population":"856,916",
-    "ViolentCrime":"589.8"
-  },
-  {
-    "State":"California",
-    "City":"Chula Vista",
-    "Population":"259,894",
-    "ViolentCrime":"235.5"
-  },
-  {
-    "State":"Illinois",
-    "City":"Chicago",
-    "Population":"2,724,121",
-    "ViolentCrime":"884.3"
-  },
-  {
-    "State":"Ohio",
-    "City":"Cincinnati",
-    "Population":"297,671",
-    "ViolentCrime":"905.4"
-  },
-  {
-    "State":"Ohio",
-    "City":"Cleveland",
-    "Population":"388,655",
-    "ViolentCrime":"1,334.30"
-  },
-  {
-    "State":"Colorado",
-    "City":"Colorado Springs",
-    "Population":"444,949",
-    "ViolentCrime":"458.3"
-  },
-  {
-    "State":"Ohio",
-    "City":"Columbus",
-    "Population":"830,811",
-    "ViolentCrime":"549.2"
-  },
-  {
-    "State":"Texas",
-    "City":"Corpus Christi",
-    "Population":"319,211",
-    "ViolentCrime":"656"
-  },
-  {
-    "State":"Texas",
-    "City":"Dallas",
-    "Population":"1,272,396",
-    "ViolentCrime":"664.7"
-  },
-  {
-    "State":"Colorado",
-    "City":"Denver",
-    "Population":"665,353",
-    "ViolentCrime":"598.6"
-  },
-  {
-    "State":"Michigan",
-    "City":"Detroit",
-    "Population":"684,694",
-    "ViolentCrime":"1,988.60"
-  },
-  {
-    "State":"Texas",
-    "City":"El Paso",
-    "Population":"680,273",
-    "ViolentCrime":"392.6"
-  },
-  {
-    "State":"Indiana",
-    "City":"Fort Wayne",
-    "Population":"257,172",
-    "ViolentCrime":"317.3"
-  },
-  {
-    "State":"Texas",
-    "City":"Fort Worth*",
-    "Population":"789,035",
-    "ViolentCrime":"560.2"
-  },
-  {
-    "State":"California",
-    "City":"Fresno",
-    "Population":"513,187",
-    "ViolentCrime":"464.2"
-  },
-  {
-    "State":"North Carolina",
-    "City":"Greensboro",
-    "Population":"282,203",
-    "ViolentCrime":"477"
-  },
-  {
-    "State":"Nevada",
-    "City":"Henderson",
-    "Population":"274,121",
-    "ViolentCrime":"164.9"
-  },
-  {
-    "State":"Texas",
-    "City":"Houston",
-    "Population":"2,219,933",
-    "ViolentCrime":"991.4"
-  },
-  {
-    "State":"Indiana",
-    "City":"Indianapolis",
-    "Population":"858,238",
-    "ViolentCrime":"1,254.70"
-  },
-  {
-    "State":"Florida",
-    "City":"Jacksonville",
-    "Population":"856,021",
-    "ViolentCrime":"683.7"
-  },
-  {
-    "State":"New Jersey",
-    "City":"Jersey City",
-    "Population":"260,005",
-    "ViolentCrime":"531.1"
-  },
-  {
-    "State":"Missouri",
-    "City":"Kansas City",
-    "Population":"468,417",
-    "ViolentCrime":"1,251.40"
-  },
-  {
-    "State":"Texas",
-    "City":"Laredo",
-    "Population":"250,994",
-    "ViolentCrime":"388.9"
-  },
-  {
-    "State":"Nevada",
-    "City":"Las Vegas",
-    "Population":"1,530,899",
-    "ViolentCrime":"841.1"
-  },
-  {
-    "State":"Kentucky",
-    "City":"Lexington",
-    "Population":"311,848",
-    "ViolentCrime":"333.8"
-  },
-  {
-    "State":"Nebraska",
-    "City":"Lincoln",
-    "Population":"271,208",
-    "ViolentCrime":"338.5"
-  },
-  {
-    "State":"California",
-    "City":"Long Beach",
-    "Population":"471,123",
-    "ViolentCrime":"489"
-  },
-  {
-    "State":"California",
-    "City":"Los Angeles",
-    "Population":"3,906,772",
-    "ViolentCrime":"490.7"
-  },
-  {
-    "State":"Kentucky",
-    "City":"Louisville Metro",
-    "Population":"677,710",
-    "ViolentCrime":"591"
-  },
-  {
-    "State":"Tennessee",
-    "City":"Memphis",
-    "Population":"654,922",
-    "ViolentCrime":"1,740.50"
-  },
-  {
-    "State":"Arizona",
-    "City":"Mesa",
-    "Population":"462,092",
-    "ViolentCrime":"458.6"
-  },
-  {
-    "State":"Florida",
-    "City":"Miami",
-    "Population":"421,996",
-    "ViolentCrime":"1,060.00"
-  },
-  {
-    "State":"Wisconsin",
-    "City":"Milwaukee",
-    "Population":"600,374",
-    "ViolentCrime":"1,476.40"
-  },
-  {
-    "State":"Minnesota",
-    "City":"Minneapolis",
-    "Population":"404,461",
-    "ViolentCrime":"1,012.00"
-  },
-  {
-    "State":"Alabama",
-    "City":"Mobile",
-    "Population":"250,655",
-    "ViolentCrime":"593.6"
-  },
-  {
-    "State":"Tennessee",
-    "City":"Nashville",
-    "Population":"647,689",
-    "ViolentCrime":"1,122.50"
-  },
-  {
-    "State":"Louisiana",
-    "City":"New Orleans",
-    "Population":"387,113",
-    "ViolentCrime":"973.9"
-  },
-  {
-    "State":"New York",
-    "City":"New York",
-    "Population":"8,473,938",
-    "ViolentCrime":"596.7"
-  },
-  {
-    "State":"New Jersey",
-    "City":"Newark",
-    "Population":"279,110",
-    "ViolentCrime":"1,077.70"
-  },
-  {
-    "State":"California",
-    "City":"Oakland",
-    "Population":"409,994",
-    "ViolentCrime":"1,685.40"
-  },
-  {
-    "State":"Oklahoma",
-    "City":"Oklahoma City",
-    "Population":"617,975",
-    "ViolentCrime":"773.8"
-  },
-  {
-    "State":"Nebraska",
-    "City":"Omaha",
-    "Population":"438,465",
-    "ViolentCrime":"560.6"
-  },
-  {
-    "State":"Florida",
-    "City":"Orlando",
-    "Population":"259,675",
-    "Violent Crime":"901.1"
-  },
-  {
-    "State":"Pennsylvania",
-    "City":"Philadelphia",
-    "Population":"1,559,062",
-    "ViolentCrime":"1,021.40"
-  },
-  {
-    "State":"Arizona",
-    "City":"Phoenix",
-    "Population":"1,529,852",
-    "ViolentCrime":"571.9"
-  },
-  {
-    "State":"Pennsylvania",
-    "City":"Pittsburgh",
-    "Population":"307,613",
-    "ViolentCrime":"798.1"
-  },
-  {
-    "State":"Texas",
-    "City":"Plano",
-    "Population":"277,822",
-    "Violent Crime":"165.2"
-  },
-  {
-    "State":"Oregon",
-    "City":"Portland",
-    "Population":"615,672",
-    "ViolentCrime":"472.8"
-  },
-  {
-    "State":"North Carolina",
-    "City":"Raleigh*",
-    "Population":"428,993",
-    "ViolentCrime":"392.3"
-  },
-  {
-    "State":"California",
-    "City":"Riverside",
-    "Population":"319,453",
-    "Violent Crime":"433.2"
-  },
-  {
-    "State":"California",
-    "City":"Sacramento",
-    "Population":"482,767",
-    "ViolentCrime":"614.8"
-  },
-  {
-    "State":"Texas",
-    "City":"San Antonio",
-    "Population":"1,428,465",
-    "ViolentCrime":"539.3"
-  },
-  {
-    "State":"California",
-    "City":"San Diego",
-    "Population":"1,368,690",
-    "ViolentCrime":"380.9"
-  },
-  {
-    "State":"California",
-    "City":"San Francisco",
-    "Population":"850,294",
-    "ViolentCrime":"795.1"
-  },
-  {
-    "State":"California",
-    "City":"San Jose",
-    "Population":"1,009,679",
-    "ViolentCrime":"321.1"
-  },
-  {
-    "State":"California",
-    "City":"Santa Ana",
-    "Population":"336,462",
-    "ViolentCrime":"374.5"
-  },
-  {
-    "State":"Washington",
-    "City":"Seattle",
-    "Population":"663,410",
-    "ViolentCrime":"603.1"
-  },
-  {
-    "State":"Missouri",
-    "City":"St. Louis",
-    "Population":"318,574",
-    "ViolentCrime":"1,678.70"
-  },
-  {
-    "State":"Minnesota",
-    "City":"St. Paul",
-    "Population":"297,984",
-    "ViolentCrime":"662.5"
-  },
-  {
-    "State":"Florida",
-    "City":"St. Petersburg",
-    "Population":"250,772",
-    "ViolentCrime":"864.9"
-  },
-  {
-    "State":"California",
-    "City":"Stockton",
-    "Population":"299,519",
-    "Violent Crime":"1,331.50"
-  },
-  {
-    "State":"Florida",
-    "City":"Tampa",
-    "Population":"357,124",
-    "Violent Crime":"582.4"
-  },
-  {
-    "State":"Ohio",
-    "City":"Toledo",
-    "Population":"281,150",
-    "Violent Crime":"1,091.20"
-  },
-  {
-    "State":"Arizona",
-    "City":"Tucson*",
-    "Population":"525,486",
-    "ViolentCrime":"640.9"
-  },
-  {
-    "State":"Oklahoma",
-    "City":"Tulsa",
-    "Population":"399,556",
-    "ViolentCrime":"805.1"
-  },
-  {
-    "State":"Virginia",
-    "City":"Virginia Beach",
-    "Population":"451,102",
-    "ViolentCrime":"146.3"
-  },
-  {
-    "State":"District of Columbia",
-    "City":"Washington",
-    "Population":"658,893",
-    "ViolentCrime":"1,185.30"
-  },
-  {
-    "State":"Kansas",
-    "City":"Wichita*",
-    "Population":"386,486",
-    "ViolentCrime":"793"
-  }
+  {"state":"Alaska", "crimeRate":4684},
+{"state":"Texas", "crimeRate":109414},
+{"state":"California", "crimeRate":153709},
+{"state":"Montana", "crimeRate":3313},
+{"state":"New Mexico", "crimeRate":12459},
+{"state":"Arizona", "crimeRate":26916},
+{"state":"Nevada", "crimeRate":18045	},
+{"state":"Colorado", "crimeRate":16554},
+{"state":"Wyoming", "crimeRate":1142},
+ {"state":"Oregon", "crimeRate":9224},
+ {"state":"Idaho", "crimeRate":3468},
+ {"state":"Utah", "crimeRate":6346},
+ {"state":"Kansas", "crimeRate":10123},
+ {"state":"Minnesota", "crimeRate":12505},
+ {"state":"Nebraska", "crimeRate":5275},
+ {"state":"South Dakota", "crimeRate":2786},
+ {"state":"North Dakota", "crimeRate":1960},
+ {"state":"Missouri", "crimeRate":26856},
+ {"state":"Oklahoma", "crimeRate":15744},
+ {"state":"Washington", "crimeRate":20136},
+ {"state":"Georgia", "crimeRate":38097},
+ {"state":"Michigan", "crimeRate":42348},
+ {"state":"Iowa", "crimeRate":8497},
+ {"state":"Illinois", "crimeRate":47663},
+ {"state":"Wisconsin", "crimeRate":16714},
+ {"state":"Florida", "crimeRate":107521},
+ {"state":"Arkansas", "crimeRate":14243},
+ {"state":"Alabama", "crimeRate":20727},
+ {"state":"North Carolina", "crimeRate":32767},
+ {"state":"New York", "crimeRate":75398},
+ {"state":"Mississippi", "crimeRate":8338},
+ {"state":"Pennsylvania", "crimeRate":40164},
+ {"state":"Louisiana", "crimeRate":23934},
+ {"state":"Tennessee", "crimeRate":39848},
+ {"state":"Ohio", "crimeRate":33030},
+ {"state":"Kentucky", "crimeRate":9340},
+ {"state":"Virginia", "crimeRate":16340},
+ {"state":"Indiana", "crimeRate":24099},
+ {"state":"Maine", "crimeRate":1700},
+ {"state":"South Carolina", "crimeRate":24052},
+ {"state":"West Virginia", "crimeRate":5588},
+ {"state":"Maryland", "crimeRate":26661},
+ {"state":"Vermont", "crimeRate":622},
+ {"state":"New Hampshire", "crimeRate":2602},
+ {"state":"Massachusetts", "crimeRate":26399},
+ {"state":"New Jersey", "crimeRate":23346},
+ {"state":"Hawaii", "crimeRate":3680},
+ {"state":"Connecticut", "crimeRate":8522},
+ {"state":"Delaware", "crimeRate":4576},
+ {"state":"Rhode Island", "crimeRate":2313},
 ];
-
 
 
 
 
 var area = function (someData) {
+  var rorect1 = rect
   for (var i = 0; i < someData.length; i++){
     var barHeight = someData[i].area/1500;
     var barWidth = 15;
     var margin = barWidth / 2;
-    var spacing = i * (margin + barWidth)*1.5;
-
-    rect(spacing,0, barWidth, barHeight * 10)
+    var spacing = i * (margin + barWidth)*1.75;
+    fill(102,178,255)
+    rorect1(spacing,100, barWidth, barHeight * 10)
   }
+
 }
 
 var crime = function(bunchData){
     for(var i = 0; i < bunchData.length;i++){
-    var barHeight = bunchData[i].ViolentCrime/5;
+    var barHeight = bunchData[i].crimeRate/100;
     var barWidth = 15;
     var margin = barWidth / 2;
-    var spacing = i *(margin + barWidth) * 1.5
-    rect(spacing, 0, barWidth,barHeight)
+    var spacing = i *(margin + barWidth) * 1.75
+    fill(255,255,51)
+    rect(spacing, 100, barWidth,barHeight)
   }
 }
 
-  
+var Name = function(bunchData){
+    for(var i = 0; i < bunchData.length;i++){
+    var barHeight = bunchData[i].state;
+    var barWidth = 15;
+    var margin = barWidth / 2;
+    var size = 12
+    var spacing = i *(margin + barWidth) * 1.75
+    fill(255)
+    textSize(size)
+    text(barHeight,spacing,50)
+  }
+}
   
   
   
 function setup() {
   createCanvas(2000, 2000)
-
-  
   
 }
 
-function draw() {
-if (mouseIsPressed)
-  crime(crimeRates)
-  else area(myData)
+
+var draw = function(){
+  background(0)
+  Name(crimeRates)
+    if(mouseIsPressed){
+      crime(crimeRates)
+    }else{
+      area(stateArea)
+    }
 }
+
