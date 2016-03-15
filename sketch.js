@@ -143,18 +143,17 @@ function draw() {
   ];
   
   
-  
-  for(var i = 0; i < discography.length; i++) {
+    //discography[i].songs[i].lyrics
+    //var aboutKanye = split(discography[i].songs[i].lyrics, "I","me","Kanye","West");
+    //var aboutUs = split(discography[i].songs[i].lyrics, "you","we","youre","they", "he","she","them")
+    
+  for (var i = 0; i < discography.length; i++){
     fill('hotpink');
-    textSize(15);
+    textSize(10);
+    text(discography[i].name, discography[i].songs[i].albumLoc[0], discography[i].songs[i].albumLoc[1], 600,600)
     
-    var aboutKanye = split(discography[i].songs[i].lyrics, "I","me","Kanye","West","Kanye West");
-    var aboutUs = split(discography[i].songs[i].lyrics, "you","we","youre","they", "he","she","them")
     
-    for (var i = 0; i < dis)
-  
-    
-    for(var j = 0; j < discography.length; j++) {
+    for(var j = 0; j < discography[j].lyrics.length; j++) {
       var rectHeight = 10;
       var rectWidth = 30;
       noStroke();
