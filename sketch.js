@@ -1,7 +1,7 @@
 //Kanye: Me vs We 
 
 function setup() {
-  createCanvas(1200,600);
+  createCanvas(1120,600);
   background(51);
 }
 
@@ -23,7 +23,7 @@ function draw() {
   var discography = [
     {
       name: "The College Dropout",
-      albumLoc: [40, 500],
+      albumLoc: [40, 550],
       songs: [
         {
           name: "Intro",
@@ -112,7 +112,7 @@ function draw() {
       ]
     },{
       name: "Late Registration",
-      albumLoc: [175, 500],
+      albumLoc: [175, 550],
       songs: [
         {
           "name": "Intro",
@@ -121,7 +121,7 @@ function draw() {
       ]
     },{
       name: "Graduation",
-      albumLoc: [290, 500],
+      albumLoc: [290, 550],
       songs: [
         {
           "name": "Intro",
@@ -130,7 +130,7 @@ function draw() {
       ]
     },{
       name: "808's and Heartbreak",
-      albumLoc: [380, 500],
+      albumLoc: [380, 550],
       songs: [
         {
           "name": "Intro",
@@ -139,7 +139,7 @@ function draw() {
       ]
     },{
       name: "My Beautiful Dark Twisted Fantasy",
-      albumLoc: [530, 500],
+      albumLoc: [530, 550],
       songs: [
         {
           "name": "Intro",
@@ -148,7 +148,7 @@ function draw() {
       ]
     },{
       name: "Watch the Throne",
-      albumLoc: [750, 500],
+      albumLoc: [755, 550],
       songs: [
         {
           "name": "Intro",
@@ -157,7 +157,7 @@ function draw() {
       ]
     },{
       name: "Yeezus",
-      albumLoc: [890, 500],
+      albumLoc: [890, 550],
       songs: [
         {
           "name": "Intro",
@@ -166,7 +166,7 @@ function draw() {
       ]
     },{
       name: "The Life of Pablo",
-      albumLoc: [980, 500],
+      albumLoc: [980, 550],
       songs: [
         {
           "name": "Intro",
@@ -176,29 +176,24 @@ function draw() {
     }
   ];
   
+  //lists album names
+  for (var i = 0; i < discography.length; i++){
+    for (var j = 0; j < discography[i].songs.length; j++) {
+      text(discography[i].name, discography[i].albumLoc[0],discography[i].albumLoc[1],600,600);
+    }
+  }
   
-    //put in seperate function: 
+  //counts split words
+  
+  
+  //respective numbers show up 
+  
+  
+  //hover function
+  
+     //put in seperate function: 
     //var aboutKanye = split(discography[i].songs[i].lyrics, "I","me","Kanye","West");
     //var aboutUs = split(discography[i].songs[i].lyrics, "you","we","youre","they", "he","she","them") discography[i].songs[i].albumLoc[0]
-  
-  for (var i = 0; i < discography.length; i++){
-  for (var j = 0; j < discography[i].songs.length; j++) {
-    text(discography[i].name, discography[i].albumLoc[0],discography[i].albumLoc[1],600,600);
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    //text(discography[i].songs[j].name, discography[i].songs[j].albumLoc[0], discography[i].songs[j].albumLoc[1]);
-  }
-}
-  
   
 }
 /*
