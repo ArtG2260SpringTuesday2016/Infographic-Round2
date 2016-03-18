@@ -10,9 +10,9 @@ var moon = {
 var graph = function (someData) {
   for (var i = 0; i < someData.length; i++){
     var barWidth = 13
-    var spacing = i * (margin + barWidth);
-    var margin = 5;
+    var spacing = i * (5 + barWidth);
     var barHeight = someData[i].interest;
+
     rect(spacing, 250, barWidth, barHeight * 2)
     rect(spacing, 250, barWidth, barHeight * -2)
   }
@@ -30,6 +30,7 @@ function setup() {
     stars[i].move();
     stars[i].display();
   }
+
 
 function Star(){
   this.x = random(0, width);
@@ -72,4 +73,44 @@ function Star(){
   stroke(300);
   line(200, 250, 800, 250);
 
+// Adding Hover
+  if (dist(mouseX, mouseY, 200, 800) < 800){
+  fill(255,0,0)
+  ellipse(200,200,400,400)
 }
+}
+function draw() {
+for(i = 0; i < myData.length; i++) {
+  var spd = myData[i];
+
+  var barWidth = 13
+  var spacing = i * (5 + barWidth);
+
+  if (abs((spacing + (barWidth / 2)) - mouseX) < (barWidth / 2)){
+    if (spd.date != "filler") {
+      textSize(10)
+      text(spd.date,spacing + (barWidth / 2),200)
+    }
+}
+}
+}
+
+function whatever(){
+
+}
+
+////////////////////////
+
+
+/*function fuckThis() {
+  for(i = 0; i < myData.length; i++) {
+    var spd = myData[i];
+
+    var barWidth = 13
+    var spacing = i * (5 + barWidth);
+
+    if (abs(spacing - mouseX) < barWidth){
+      console.log("wohooo")
+  }
+}
+}*/
