@@ -18,7 +18,7 @@ function draw() {
 
 
   
-  function kanye() {
+function kanye() {
   
   var discography = [
     {
@@ -175,39 +175,32 @@ function draw() {
       ]
     }
   ];
-  
+
   //lists album names
   for (var i = 0; i < discography.length; i++){
     for (var j = 0; j < discography[i].songs.length; j++) {
       text(discography[i].name, discography[i].albumLoc[0],discography[i].albumLoc[1],600,600);
     }
   }
+
   
-  //counts split words
-  
+//counts split words
+function splitWords() {  
+  var aboutKanye = split(discography[i].songs[i].lyrics, "I","me","Kanye","West");
+  var aboutUs = split(discography[i].songs[i].lyrics, "you","we","youre","they", "he","she","them");
+  //add up array:
+  var sum = 0;
+  for(var i = 0; i < aboutKanye.length; i++) {
+    sum = sum + Number(aboutKanye[i]);
+  }
+  console.log(sum);
+}
   
   //respective numbers show up 
   
   
   //hover function
   
-     //put in seperate function: 
-    //var aboutKanye = split(discography[i].songs[i].lyrics, "I","me","Kanye","West");
-    //var aboutUs = split(discography[i].songs[i].lyrics, "you","we","youre","they", "he","she","them") discography[i].songs[i].albumLoc[0]
+
   
 }
-/*
- for(i = 0; i < gdpArray.length; i++){
-    fill('white');
-    textSize(10);
-    text(gdpArray[i].name, gdpArray[i].textLoc[0], gdpArray[i].textLoc[1], 600,600)
-    text(gdpArray[i].gdpText, gdpArray[i].textLoc[0], gdpArray[i].textLoc[1] + 20, 600,600)
-
-    for(j = 0; j < gdpArray.length; j++){
-      var circDim = gdpArray[i].gdp/2000;
-      noStroke();
-      fill('yellow');
-      ellipse((gdpArray[i].textLoc[0] + 30),(gdpArray[i].textLoc[1] - 150),circDim,circDim);
-      //console.log(gdpArray[i].gdp[j]);
-    }
-  }*/
