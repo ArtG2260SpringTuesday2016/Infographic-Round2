@@ -79,38 +79,15 @@ function Star(){
   ellipse(200,200,400,400)
 }
 }
-function draw() {
-for(i = 0; i < myData.length; i++) {
-  var spd = myData[i];
-
-  var barWidth = 13
-  var spacing = i * (5 + barWidth);
-
-  if (abs((spacing + (barWidth / 2)) - mouseX) < (barWidth / 2)){
-    if (spd.date != "filler") {
-      textSize(10)
+  function mouseMoved() {
+    for(i = 0; i < myData.length; i++) {
+      var spd = myData[i];
+      var barWidth = 13
+      var spacing = i * (5 + barWidth);
+    if (abs((spacing + (barWidth / 2)) - mouseX) < (barWidth / 2) && spd.date != "filler") {
+      textSize(15)
       text(spd.date,spacing + (barWidth / 2),200)
+      text("Interest Level: " + spd.interest, spacing + (barWidth / 2), 220)
     }
-}
-}
-}
-
-function whatever(){
-
-}
-
-////////////////////////
-
-
-/*function fuckThis() {
-  for(i = 0; i < myData.length; i++) {
-    var spd = myData[i];
-
-    var barWidth = 13
-    var spacing = i * (5 + barWidth);
-
-    if (abs(spacing - mouseX) < barWidth){
-      console.log("wohooo")
   }
-}
-}*/
+  }
