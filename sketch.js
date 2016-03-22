@@ -55,11 +55,14 @@ function Star(){
   ellipse(moon.x - 20, moon.y - 30, moon.size - 78, moon.size - 78)
   ellipse(moon.x - 20, moon.y, moon.size - 85, moon.size - 85)
 
+  // Adding Line at 0
+    stroke(300);
+    line(200, 250, 800, 250);
+
 // Creating Histogram
   noStroke()
   fill(34,148,143) // Blue for Histogram
   graph(myData);
-
 
 // Adding Text to Corner
   textSize(20)
@@ -68,10 +71,6 @@ function Star(){
   rect(590,80,350,30), // Rectangle Behind Text
   fill(255),
   text("From January 4 to January 30 2016", 603, 102)
-
-// Adding Line at 0
-  stroke(300);
-  line(200, 250, 800, 250);
 
 // Adding Hover
   if (dist(mouseX, mouseY, 200, 800) < 800){
