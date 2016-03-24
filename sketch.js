@@ -14,13 +14,15 @@ function draw() {
   //text("an infographic", 50, 80);
   
   kanye();
+  albumNames();
+  splitWords();
 }
 
 
   
 function kanye() {
   
-  var discography = [
+  this.discography = [
     {
       name: "The College Dropout",
       albumLoc: [40, 550],
@@ -179,32 +181,35 @@ function kanye() {
 
 function albumNames() {
   //lists album names
-  for (var i = 0; i < discography.length; i++){
-    for (var j = 0; j < discography[i].songs.length; j++) {
-      text(discography[i].name, discography[i].albumLoc[0],discography[i].albumLoc[1],600,600);
+  for (var i = 0; i < this.discography.length; i++){
+    for (var j = 0; j < this.discography[i].songs.length; j++) {
+      text(this.discography[i].name, this.discography[i].albumLoc[0],this.discography[i].albumLoc[1],600,600);
     }
   }
 }
+
 
 function splitWords() {
-  for(var i = 0; i < discography.length; i++){
-    for (var j = 0; j < discography[i].songs.length; j++){
-      split(songs)
+    var aboutKanye = split(this.discography[i].songs[i].lyrics, "I","me","Kanye","West");
+  var aboutUs = split(this.discography[i].songs[i].lyrics, "you","we","youre","they", "he","she","them");
+  for(var i = 0; i < this.discography.length; i++){
+    for (var j = 0; j < this.discography[i].songs.length; j++){
+      split(aboutKanye);
+      split(aboutUs);
     }
   }
 }
 
 
-function showData() { //includes interactivity 
+/*function showData() { //includes interactivity 
   
 }
-
+*/
 
 /*  
 //counts split words
 function splitWords() {  
-  var aboutKanye = split(discography[i].songs[i].lyrics, "I","me","Kanye","West");
-  var aboutUs = split(discography[i].songs[i].lyrics, "you","we","youre","they", "he","she","them");
+
   j */
   
   //respective numbers show up 
