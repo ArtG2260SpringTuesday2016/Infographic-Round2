@@ -4,8 +4,8 @@ var meWords = ["I","me","Kanye","West"]
 var weWords = ["you","we","youre","they", "he","she","them"]
 
 // Splits a string into an array of words
-var splitWords = function(aString) {
-  return aString.split(" ");
+var splitWords = function(aStringOfLyrics) {
+  return aStringOfLyrics.toLowerCase().split(" ");
 }
 
 // Takes in an array of words and gives frequency
@@ -23,6 +23,24 @@ var tallyWordsUp = function(anArrayOfWords) {
   }
   return wordObject;
 }
+
+var tallyWordInSong = function(aStringOfLyrics) {
+  return tallyWordsUp(splitWords(aStringOfLyrics))
+}
+
+// sample loop to see how many times Kanye says a word in an "album"
+var albumWordCount = function(anAlbum, aWord) {
+  var wordCount = 0;
+
+  for (var i = 0; i < anAlbum.length; i++) {
+    wordCount += tallyWordInSong(anAlbum[i].lyrics)[aWord] || 0;
+  }
+  return wordCount;
+}
+
+// example accessing songs in first album:
+console.log(discography[0].name);
+console.log('mentions of "your": ', albumWordCount(discography[0].songs, "your"));
 
 
 
