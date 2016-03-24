@@ -175,26 +175,37 @@ function kanye() {
       ]
     }
   ];
+}
 
+function albumNames() {
   //lists album names
   for (var i = 0; i < discography.length; i++){
     for (var j = 0; j < discography[i].songs.length; j++) {
       text(discography[i].name, discography[i].albumLoc[0],discography[i].albumLoc[1],600,600);
     }
   }
+}
 
+function splitWords() {
+  for(var i = 0; i < discography.length; i++){
+    for (var j = 0; j < discography[i].songs.length; j++){
+      split(songs)
+    }
+  }
+}
+
+
+function showData() { //includes interactivity 
   
+}
+
+
+/*  
 //counts split words
 function splitWords() {  
   var aboutKanye = split(discography[i].songs[i].lyrics, "I","me","Kanye","West");
   var aboutUs = split(discography[i].songs[i].lyrics, "you","we","youre","they", "he","she","them");
-  //add up array:
-  var sum = 0;
-  for(var i = 0; i < aboutKanye.length; i++) {
-    sum = sum + Number(aboutKanye[i]);
-  }
-  console.log(sum);
-}
+  j */
   
   //respective numbers show up 
   
@@ -202,5 +213,6 @@ function splitWords() {
   //hover function
   
 
+
   
-}
+
