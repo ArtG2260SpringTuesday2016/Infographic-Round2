@@ -38,11 +38,20 @@ var albumWordCount = function(anAlbum, aWord) {
   return wordCount;
 }
 
-// example accessing songs in first album:
-console.log(discography[0].name);
-console.log('mentions of "your": ', albumWordCount(discography[0].songs, "your"));
+// Example accessing songs in first album:
+// console.log(discography[0].name);
+// console.log('  mentions of "you": ', albumWordCount(discography[0].songs, "we"));
+// console.log('  mentions of "me": ', albumWordCount(discography[0].songs, "me"));
 
-
+// Another sample to see this in every album
+var countsInAllAlbums = function(aDiscography) {
+  for (var i = 0; i < aDiscography.length; i++) {
+    console.log(aDiscography[i].name)
+    console.log('  mentions of "we": ', albumWordCount(aDiscography[i].songs, "we"));
+    console.log('  mentions of "me": ', albumWordCount(aDiscography[i].songs, "me"));
+  }
+}
+countsInAllAlbums(discography)
 
 
 function setup() {
