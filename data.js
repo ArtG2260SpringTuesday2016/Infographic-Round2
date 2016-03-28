@@ -1,4 +1,6 @@
-var discography = [
+var discography = {};
+
+discography["The College Dropout"] =
   {
     name: "The College Dropout",
     albumLoc: [40, 550],
@@ -88,7 +90,10 @@ var discography = [
         lyrics: ""
       },
     ]
-  },{
+  };
+
+discography["Late Registration"] =
+  {
     name: "Late Registration",
     albumLoc: [175, 550],
     songs: [
@@ -97,7 +102,10 @@ var discography = [
         "lyrics": ""
       }
     ]
-  },{
+  };
+
+discography["Graduation"] =
+  {
     name: "Graduation",
     albumLoc: [290, 550],
     songs: [
@@ -106,7 +114,10 @@ var discography = [
         "lyrics": ""
       }
     ]
-  },{
+  };
+
+discography["808's and Heartbreak"] =
+  {
     name: "808's and Heartbreak",
     albumLoc: [380, 550],
     songs: [
@@ -115,7 +126,10 @@ var discography = [
         "lyrics": ""
       }
     ]
-  },{
+  };
+
+discography["My Beautiful Dark Twisted Fantasy"] =
+  {
     name: "My Beautiful Dark Twisted Fantasy",
     albumLoc: [530, 550],
     songs: [
@@ -124,7 +138,10 @@ var discography = [
         "lyrics": ""
       }
     ]
-  },{
+  };
+
+discography["Watch the Throne"] =
+  {
     name: "Watch the Throne",
     albumLoc: [755, 550],
     songs: [
@@ -133,7 +150,10 @@ var discography = [
         "lyrics": ""
       }
     ]
-  },{
+  };
+
+discography["Yeezus"] =
+  {
     name: "Yeezus",
     albumLoc: [890, 550],
     songs: [
@@ -142,7 +162,10 @@ var discography = [
         "lyrics": ""
       }
     ]
-  },{
+  };
+
+discography["The Life of Pablo"] =
+  {
     name: "The Life of Pablo",
     albumLoc: [980, 550],
     songs: [
@@ -151,5 +174,26 @@ var discography = [
         "lyrics": ""
       }
     ]
-  }
-];
+  };
+
+discography.asList = function() {
+
+  console.log(this)
+  var albumNames = 
+    ["The College Dropout",
+     "Late Registration", 
+     "Graduation", 
+     "808's and Heartbreak", 
+     "My Beautiful Dark Twisted Fantasy",
+     "Watch the Throne",
+     "Yeezus",
+     "The Life of Pablo"];
+  var toret = [];
+
+  for (name in albumNames) {
+    toret.push(this[albumNames[name]])
+  };
+
+  return toret;
+}
+
