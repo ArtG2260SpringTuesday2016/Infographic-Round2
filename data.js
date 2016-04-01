@@ -92,89 +92,6 @@ var discography= []
     ]
   };
 
-discography["Late Registration"] =
-  {
-    name: "Late Registration",
-    albumLoc: [175, 550],
-    songs: [
-      {
-        "name": "Intro",
-        "lyrics": ""
-      }
-    ]
-  };
-
-discography["Graduation"] =
-  {
-    name: "Graduation",
-    albumLoc: [290, 550],
-    songs: [
-      {
-        "name": "Intro",
-        "lyrics": ""
-      }
-    ]
-  };
-
-discography["808's and Heartbreak"] =
-  {
-    name: "808's and Heartbreak",
-    albumLoc: [380, 550],
-    songs: [
-      {
-        "name": "Intro",
-        "lyrics": ""
-      }
-    ]
-  };
-
-discography["My Beautiful Dark Twisted Fantasy"] =
-  {
-    name: "My Beautiful Dark Twisted Fantasy",
-    albumLoc: [530, 550],
-    songs: [
-      {
-        "name": "Intro",
-        "lyrics": ""
-      }
-    ]
-  };
-
-discography["Watch the Throne"] =
-  {
-    name: "Watch the Throne",
-    albumLoc: [755, 550],
-    songs: [
-      {
-        "name": "Intro",
-        "lyrics": ""
-      }
-    ]
-  };
-
-discography["Yeezus"] =
-  {
-    name: "Yeezus",
-    albumLoc: [890, 550],
-    songs: [
-      {
-        "name": "Intro",
-        "lyrics": ""
-      }
-    ]
-  };
-
-discography["The Life of Pablo"] =
-  {
-    name: "The Life of Pablo",
-    albumLoc: [980, 550],
-    songs: [
-      {
-        "name": "Intro",
-        "lyrics": ""
-      }
-    ]
-  };
 
 // discography.asList = function() {
 
@@ -197,24 +114,24 @@ discography["The Life of Pablo"] =
 //   return toret;
 // }
 
-discography = function() {
+// discography = function() {
 
-  console.log(this)
-  var albumNames = 
-    ["The College Dropout",
-     "Late Registration", 
-     "Graduation", 
-     "808's and Heartbreak", 
-     "My Beautiful Dark Twisted Fantasy",
-     "Watch the Throne",
-     "Yeezus",
-     "The Life of Pablo"];
-  var toReturn = [];
+//   console.log(this)
+//   var albumNames = 
+//     ["The College Dropout",
+//     "Late Registration", 
+//     "Graduation", 
+//     "808's and Heartbreak", 
+//     "My Beautiful Dark Twisted Fantasy",
+//     "Watch the Throne",
+//     "Yeezus",
+//     "The Life of Pablo"];
+//   var toReturn = [];
 
-  for (name in albumNames) {
-    toReturn.push(this[albumNames[name]])
-  };
+//   for (name in albumNames) {
+//     toReturn.push(this[albumNames[name]])
+//   };
 
-  return toret;
-}
+//   return toReturn;
+// }
 

@@ -1,14 +1,12 @@
 //Kanye: Me vs We
 
-var meWords = ["I","me","Kanye","West"];
-var weWords = ["you","we","youre","they", "he","she","them"];
+var meWords = ["I","me","Kanye","West"]
+var weWords = ["you","we","youre","they", "he","she","them"]
 
 // Splits a string into an array of words
 var splitWords = function(aStringOfLyrics) {
   return aStringOfLyrics.toLowerCase().split(" ");
 }
-
-console.log('tallied?');
 
 // Takes in an array of words and gives frequency
 var tallyWordsUp = function(anArrayOfWords) {
@@ -53,33 +51,12 @@ var countsInAllAlbums = function(aDiscography) {
     console.log('  mentions of "me": ', albumWordCount(aDiscography[i].songs, "me"));
   }
 }
-//countsInAllAlbums(aDiscography);
+countsInAllAlbums(discography)
 
-console.log('albumNames did not run');
-
-var albumNames= function() {
-  //lists album names
-  for (var i = 0; i < this.discography.length; i++){
-    for (var j = 0; j < this.discography[i].songs.length; j++) {
-      text(this.discography[i].name, this.discography[i].albumLoc[0],this.discography[i].albumLoc[1],600,600);
-      console.log('I ran'); //albumNames ran
-    }
-  }
-}
 
 function setup() {
   createCanvas(1120,600);
   background(51);
-  
-  splitWords();
-  tallyWordInSong();
-  albumWordCount();
-  countsInAllAlbums();
-  albumNames();
-
-}
-
-function draw() {
   fill('hotpink');
   textSize(25);
   textFont("Helvetica")
@@ -87,4 +64,8 @@ function draw() {
   textSize(12);
 }
 
+function draw() {
 
+}
+
+//CHANGESCHANGES
