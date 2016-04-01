@@ -1,9 +1,9 @@
-var discography = {};
+//var discography = {};
 
-discography["The College Dropout"] =
+var discography= []
   {
-    name: "The College Dropout",
-    albumLoc: [40, 550],
+    name: "The College Dropout";
+    albumLoc: [40, 550];
     songs: [
       {
         name: "Intro",
