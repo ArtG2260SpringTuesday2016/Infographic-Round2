@@ -176,7 +176,28 @@ discography["The Life of Pablo"] =
     ]
   };
 
-discography.asList = function() {
+// discography.asList = function() {
+
+//   console.log(this)
+//   var albumNames = 
+//     ["The College Dropout",
+//     "Late Registration", 
+//     "Graduation", 
+//     "808's and Heartbreak", 
+//     "My Beautiful Dark Twisted Fantasy",
+//     "Watch the Throne",
+//     "Yeezus",
+//     "The Life of Pablo"];
+//   var toret = [];
+
+//   for (name in albumNames) {
+//     toret.push(this[albumNames[name]])
+//   };
+
+//   return toret;
+// }
+
+discography = function() {
 
   console.log(this)
   var albumNames = 
@@ -188,10 +209,10 @@ discography.asList = function() {
      "Watch the Throne",
      "Yeezus",
      "The Life of Pablo"];
-  var toret = [];
+  var toReturn = [];
 
   for (name in albumNames) {
-    toret.push(this[albumNames[name]])
+    toReturn.push(this[albumNames[name]])
   };
 
   return toret;

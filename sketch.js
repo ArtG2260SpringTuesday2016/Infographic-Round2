@@ -45,45 +45,23 @@ var albumWordCount = function(anAlbum, aWord) {
 
 // Another sample to see this in every album
 var countsInAllAlbums = function(aDiscography) {
-  console.log(aDiscography)
-  aDiscography = aDiscography.asList()
-  console.log(aDiscography)
-
   for (var i = 0; i < aDiscography.length; i++) {
     console.log(aDiscography[i].name)
     console.log('  mentions of "we": ', albumWordCount(aDiscography[i].songs, "we"));
     console.log('  mentions of "me": ', albumWordCount(aDiscography[i].songs, "me"));
   }
 }
-countsInAllAlbums(discography)
+//countsInAllAlbums(aDiscography);
 
-// function albumNames() {
-//   //lists album names
-//   console.log('I ran')
-//   for (var i = 0; i < this.discography.length; i++){
-//     for (var j = 0; j < this.discography[i].songs.length; j++) {
-//       text(this.discography[i].name, this.discography[i].albumLoc[0],this.discography[i].albumLoc[1],600,600);
-//     }
-//   }
-// }
 
-function albumNames(aDiscography) {
+var albumNames= function() {
   //lists album names
-  var dg = aDiscography.asList()
-  for (var i = 0; i < dg.length; i++){
-    for (var j = 0; j < dg[i].songs.length; j++) {
-      button = createButton(dg[i].name);
-      button.position(dg[i].albumLoc[0],dg[i].albumLoc[1]);
-      button.dg = aDiscography
-      button.mousePressed(OnClick);
+  for (var i = 0; i < this.discography.length; i++){
+    for (var j = 0; j < this.discography[i].songs.length; j++) {
+      text(this.discography[i].name, this.discography[i].albumLoc[0],this.discography[i].albumLoc[1],600,600);
+      console.log('need 2 run');
     }
   }
-}
-
-function OnClick(info) {
-
-  console.log(albumWordCount(this.dg[info.target.innerHTML].songs, "we"))
-
 }
 
 function setup() {
@@ -94,9 +72,10 @@ function setup() {
   textFont("Helvetica")
   text("Kanye: Me vs We", 40, 50);
   textSize(12);
-  albumNames(discography);
 }
 
 function draw() {
-
+  albumNames();
 }
+
+
