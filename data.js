@@ -1,9 +1,8 @@
 //var discography = {};
-
-var discography= []
+var discography= [
   {
-    name: "The College Dropout";
-    albumLoc: [40, 550];
+    name: "The College Dropout",
+    albumLoc: [40, 550],
     songs: [
       {
         name: "Intro",
@@ -90,7 +89,8 @@ var discography= []
         lyrics: ""
       },
     ]
-  };
+  }
+];
 
 
 // discography.asList = function() {

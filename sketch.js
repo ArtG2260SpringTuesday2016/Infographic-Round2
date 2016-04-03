@@ -1,7 +1,17 @@
 //Kanye: Me vs We
-
 var meWords = ["I","me","Kanye","West"]
 var weWords = ["you","we","youre","they", "he","she","them"]
+
+var albumNames= function(aDiscography) {
+  //lists album names
+  for (var i = 0; i < aDiscography.length; i++){
+    for (var j = 0; j < aDiscography[i].songs.length; j++) {
+      text(aDiscography[i].name, aDiscography[i].albumLoc[0],aDiscography[i].albumLoc[1],600,600);
+    
+    }
+  }
+}
+
 
 // Splits a string into an array of words
 var splitWords = function(aStringOfLyrics) {
@@ -51,7 +61,21 @@ var countsInAllAlbums = function(aDiscography) {
     console.log('  mentions of "me": ', albumWordCount(aDiscography[i].songs, "me"));
   }
 }
-countsInAllAlbums(discography)
+
+countsInAllAlbums(discography);
+
+var hoverOnAlbums = function(aDiscography) {
+    for (var i = 0; i < aDiscography.length; i++){
+        if(mouseX <= (aDiscography[i].albumLoc[0] + 5) && (mouseX >= (aDiscography[i].albumLoc[0] - 5))) {
+          fill('#222')
+          rect(100, 100, 900, 400, 20)
+          fill('hotpink')
+          textSize(60)
+          text(albumWordCount(aDiscography[i].songs, "me"), 300, 200);
+          text(albumWordCount(aDiscography[i].songs, "we"), 750, 200);
+        }
+    }
+}
 
 
 function setup() {
@@ -62,10 +86,11 @@ function setup() {
   textFont("Helvetica")
   text("Kanye: Me vs We", 40, 50);
   textSize(12);
+  albumNames(discography);
+  fill('#222')
+  rect(100, 100, 900, 400, 20)
 }
 
 function draw() {
-
+   hoverOnAlbums(discography);
 }
-
-//CHANGESCHANGES
