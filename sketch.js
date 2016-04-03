@@ -66,13 +66,17 @@ countsInAllAlbums(discography);
 
 var hoverOnAlbums = function(aDiscography) {
     for (var i = 0; i < aDiscography.length; i++){
-        if(mouseX <= (aDiscography[i].albumLoc[0] + 5) && (mouseX >= (aDiscography[i].albumLoc[0] - 5))) {
-          fill('#222')
+        if((mouseX <= (aDiscography[i].albumLoc[0] + 100) 
+        && (mouseX >= (aDiscography[i].albumLoc[0] - 15))) 
+        && ((mouseY <= (aDiscography[i].albumLoc[1] +15)) 
+        && (mouseY >= (aDiscography[i].albumLoc[1]-15)))) {
+          fill(51)
+          noStroke();
           rect(100, 100, 900, 400, 20)
           fill('hotpink')
-          textSize(60)
-          text(albumWordCount(aDiscography[i].songs, "me"), 300, 200);
-          text(albumWordCount(aDiscography[i].songs, "we"), 750, 200);
+          textSize(200);
+          text(albumWordCount(aDiscography[i].songs, "me"), 240, 350);
+          text(albumWordCount(aDiscography[i].songs, "we"), 690, 350);
         }
     }
 }
@@ -83,14 +87,13 @@ function setup() {
   background(51);
   fill('hotpink');
   textSize(25);
-  textFont("Helvetica")
+  textFont("Oswald");
   text("Kanye: Me vs We", 40, 50);
   textSize(12);
   albumNames(discography);
-  fill('#222')
-  rect(100, 100, 900, 400, 20)
+  
 }
 
 function draw() {
-   hoverOnAlbums(discography);
+  hoverOnAlbums(discography);
 }

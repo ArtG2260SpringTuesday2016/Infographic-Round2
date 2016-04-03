@@ -42,15 +42,144 @@ var discography= [
       },
       {
         name: "Workout Plan",
-        lyrics: ""
+        lyrics: "Ay Wussup gurl Heyy gurl Hey How u doin'? Ay you know i finally got my shit together been watchin that workout plan gurl!! Well you lookin' all good and stuff you got you a- Gurl i know it's that workout Got you a six pack shakuar and stuff Don't say it my nigga my nigga i'm tired of puttin 1-8-7 in my niggas pager that shit aint workin' no more Gurl you know i'ma video hofesional now (Gurl) since i copped this new workout plan my shit is right rollin' in lexus, acruasss everything gurll Gurl u need to let me know where i can cop that how much is it? Gurl you know you ain't gotta pay nuttin' around me i'm tha bootleg queeen i'll give it to you for free.99 FREE.99!! That's my dawg you always lookin out for us My nigga now i can throw away my bus pass and shit oh my God Oh shit"
       },
       {
         name: "The New Workout Plan",
-        lyrics: ""
+        lyrics: "[Intro] You just popped in the Kanye West Get right for the summer workout tape And ladies if you follow these instructions exactly You might bear to pull you a rapper, a NBA player Man, at least a dude wit' a car So first of all we gon' work on the stomach Nobody wants a little tight ass! 1 and 2 and 3 and 4 and get them sit ups right and Tuck your tummy tight and do your crunches like this Give head, stop breathe, get up, check your weave Don't drop the blunt and disrespect the weed Pick up your son and don't disrespect your seed It's a party tonight and ooh she's so excited Tell me who's invited: you, your friends and my dick What's scary to me is Henny makes girls look like Halle Berry to me So excuse me miss, I forgot your name Thank you, God bless you, good night I came.. I came... I came.. It's been a week without me And she feels weak without me She wanna talk it out but Ain't nothin to talk about less She talks about freakin out so Maybe we can work it out Work it out [4x] Maybe we could work it out Oh girl your silhouette make me wanna light a cigarette My name Kanye from the Jigga set Twista said get it wet Ooh, girl your breath is HARSH Cover your mouth up like you got SARS Off them tracks yea I bought them cars Still killa a nigga on 16 bars We ain't sweatin' to the oldies we jukin to a cold beat Maybe one day girl we can bone So you can brag to all your homies now But I still mess with a big girl if you ain't fit girl I'll hit girl 1 and you brought 2 friends OK 3 more now hop in the Benz 4 door do you know the difference between a 5, 6, 7, 8 All the mocha lattes you gotta do Pilates You gotta pop this tape in before you start back dating Hustlers, gangstas, all us, ballas Hi, may name is Jill, I just want to say thanks to Kanye's workout plan. I was able to pull a NBA player And like now I shop every day on Rodeo drive I just want to say, thank you Kanye! woooo! woooo! woooo! My name is Lasandra, and I just want to say that ever since listenin' to Kanye's workout tape I was able to get my phone bill paid, I got sounds and 13's put up in my Cavalier and I was able to get a free trip to Cancun And what's most importantly is that I ain't gotta fuck Ray Ray's broke ass no mo' (Work it mo' juge it mo' pump it mo, Chi-town mo' let's go mo') My name is Alamae from Mobille, Alabama and I just want to say since listenin' to Kanye's workout tape I been able to date outside the family, I got a double wide And I rode the plane, rode the plane, rode the plane Thanks to Kanye's workout plan I'm the envy of all my friends See I pulled me a baller man (yeah) And I don't gotta work at the mall again\
+(Lemme break ya wit a piece of) \
+My favorite work out plan (oh! oh! oh!)\
+I wanna see you work out (yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah)\
+(Its that old Michael Jackson shit)\
+\
+Thats right put in work, move your ass, go wizzerk\
+Eat your salad, no dessert\
+Get that man you deserve\
+Its Kanyes workout plan\
+I said its Kanyes workout plan (Ladies and gentlemen)\
+Its Kanyes workout plan (Allow myself to introduce myself)\
+His woooorrrrkkoouut plan (This time around I want yall to clap like this)\
+\
+That's right, put in work\
+Move your ass, go wizzerk\
+Eat your salad, no dessert\
+Get that man you deserve (Stop!)\
+It's Kanye's workout plan (Ok bring)\
+I said it's Kanye's workout plan (I know y'all ain't tired)\
+It's Kanye's workout plan (But I hope not, 'cuz on this one I need ya)\
+His woooorrrrkkoouut plan (To give me a soul clap ok? Double time)\
+\
+That's right, put in work (Woo!)\
+Move your ass, go wizzerk (Ow!\
+Eat your salad, no dessert (Ugh!)\
+Get that man you deserve\
+\
+That's right, put in work (Put in work)\
+Move your ass, go wizzerk (Go wizzerk)\
+Eat your salad, no dessert (No dessert)\
+Get that man you deserve (You hear, ugh)\
+\
+Thats right, put in work (Thats right put in work)\
+Move your ass, go wizzerk (Go wizzerk)\
+Eat your salad, no dessert (Eat your salad, no dessert)\
+Get that man you deserve (Woo!)\
+\
+(Okay, okay, okay, thats, thatd be good) [Applause and cheering]\
+(I appreciate your time)\
+I want to see you work out for me\
+Woah, yeah"
       },
       {
         name: "Slow Jamz",
-        lyrics: ""
+        lyrics: "Are you gonna be?\
+Say that you're gonna be\
+\
+Oh Oh Oh Oh Oh...\
+\
+She said she wants some Marvin Gaye, some Luther Vandross, a little Anita, will definitely set this party off right\
+(Are you gonna be, are you gonna be, are you gonna be, are you gonna be, are you gonna be? Well well well well well)\
+She said she want some Ready for the World, some New Edition, some Minnie Ripperton, and definitely set this party off right\
+(Are you gonna be, are you gonna be, are you gonna be, are you gonna be, are you gonna be? Well well well well well)\
+\
+I told her to drive over in your new whip\
+Bring some friends you cool with\
+I'm gonna bring the cool whip\
+Then I want you to strip\
+See you is my new chick\
+So we get our grind on\
+She be grabbing, calling me Biggie like Shine home\
+Man, I swear she fine homes\
+Why she always lying though\
+Telling me them diamonds when she know they rhinestones\
+She got a light skinned friend look like Michael Jackson\
+Got a dark skinned friend look like Michael Jackson\
+I play 'Ready for the World' - she was ready for some action\
+My dawg said you ain't no freak, so you got to prove my man wrong\
+I'm a play this Vandross\
+You're gonna take your pants off\
+I'm gonna play this Gladys Knight\
+Me and you're gonna get right\
+\
+Got you looking at the gliss at my hands and wrists\
+While I'm laying back smoking on my cannabis\
+When it come to rocking the rhythm like Marvin and Luther\
+I can tell you ain't no messing with Kan-man and Twist\
+From the Chi and I be\
+Sipping Hennessy\
+Play some R&B\
+Trying to smoke a B\
+Looking properly\
+Feeling on a G?\
+And always (well well well well well)\
+Come with me and sip on some Evelyn Champagne\
+You ain't know Twista can work it like the Whispers\
+Hit the stop light, get into some Isaac\
+The rims still moving so I'm bumping little spinners\
+While I'm smoking on a B\
+Dipping through the streets\
+Bumping R&B\
+And I got to leave\
+something to the 23's?\
+And I do it (well well well well well)\
+With my earth and the wind smoke a fire\
+Let me when get your sheets wet listening to Keith Sweat\
+Put you in a daze for maze\
+Fullfilling our every temptation slow jamming having deep sex\
+You ready for the world girl\
+Come on over make me touch you all over your body baby don't say no to me\
+An every moment you controllin' me I'm loving the way you be holding me when I be listening to Jodeci\
+And when I come over and bend your ass\
+You be bumping Teddy Pendergrass\
+I'd hit it from the back to the melody to roll it slow\
+Now I gotta go up in it fast, but I'm gonna finish last\
+No matter how much of a thug you see\
+I still spit it like it's R&B, so to the club with me\
+And with some Luther come on and hope you finna and still be in love with me\
+\
+Baby drop another slow jam\
+And all us lovers need hold hands\
+And if you ain't got no man hop up in my Brougham\
+I keep it pimping like an old man\
+You got to roll with the plan\
+Cause after that then I\
+Take it to the dome\
+Then I got to bone\
+Stay up in the zone\
+Got to get you home\
+Gotta run up on\
+And I do it (well well well well well)\
+Baby drop another slow jam\
+And all us lovers need hold hands\
+And if you ain't got no man hop up on my brohem\
+I keep it pimping like an old man\
+You got to roll with the plan\
+Cause after that then I\
+Take you to my home\
+And we could get it on\
+Disconnect the phone\
+Just to get you goin'\
+Trying to make you moan\
+And I do it (well well well well well)"
       },
       {
         name: "Breathe In Breathe Out",
