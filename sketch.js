@@ -1,5 +1,5 @@
+var dataValueText = "artist";
 
-var hit = false;
 var obj = {};
 for (var i = 0; i < thehits.length; i++) {
    obj[thehits[i]] = (obj[thehits[i]] || 0) + 1;
@@ -34,4 +34,19 @@ function setup() {
 
 }
 
+this.isMouseOnRect = function(x) {
+  if (collidePointRect(mouseX,mouseY,x,spacing, 500, rectWidth, rectHeight))
+   dataValueText = this.thehits
+    }
 
+
+this.render = function(iterator) {
+    var x = iterator * 10;
+    this.isMouseOnRect(x);
+  }
+
+function draw() {
+  textSize(22)
+  textFont("Avenir");
+  text(dataValueText, 30, 100);
+}
