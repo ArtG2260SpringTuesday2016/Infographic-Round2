@@ -65,12 +65,12 @@ var sum = function(ar) {
 //convert1 removes "* " from a string
 //and convert running convert1 over an array
 //in addition to removing all commas
-var convert1 = function(st) {
+/*var convert1 = function(st) {
   var newAr = "";
   newAr = st.replace("* ", "");
   return newAr;
 }
-
+*/
 function setup() {
   createCanvas(600, 600);
   background("White");
@@ -79,7 +79,7 @@ function setup() {
     var newAr = [];
     for (i = 0; i < ar.length; i++) {
       if (ar[i] != "Not Available") {
-        append(newAr, Number(convert1(ar[i].replace(/,/g, ""))))
+        append(newAr, Number(ar[i].replace(/[*]| |,/g, "")))
       }
     }
     return newAr;
