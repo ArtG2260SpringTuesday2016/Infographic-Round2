@@ -23,13 +23,13 @@ var tallyWordsUp = function(anArrayOfWords) {
   var wordObject = {};
 
   // Initalize values in object
-  for (word in anArrayOfWords) {
+  for (var word in anArrayOfWords) {
     wordObject[anArrayOfWords[word]] = 0
   }
 
   // Tally up occurences
-  for (word in anArrayOfWords) {
-    wordObject[anArrayOfWords[word]] += 1
+  for (var otherWord in anArrayOfWords) {
+    wordObject[anArrayOfWords[otherWord]] += 1
   }
   return wordObject;
 }
