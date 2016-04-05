@@ -37,7 +37,6 @@ function draw() {
   if(hovercircle == true)
   {
     fill(100);
-    cursor(HAND);
     text ('red 10% pink 19% lava 30% Rose 10% Flame 13% Crimson 20%', 400, 40)
   }else
   {
