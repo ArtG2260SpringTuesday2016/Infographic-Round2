@@ -60,7 +60,7 @@ function pieChart2(diameter, data) {
   var lastAngle = 0;
 
   for (var i = 0; i < data.length; i++) {
-    fill (0, 0, random (0, 250));
+    fill (0, 0, random(0, 250));
     arc(width/4, height/2, diameter, diameter, lastAngle, lastAngle+radians(angles[i]));
     lastAngle += radians(angles[i]);
   }  
