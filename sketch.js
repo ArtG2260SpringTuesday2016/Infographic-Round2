@@ -73,7 +73,7 @@ var sum = function(ar) {
 */
 function setup() {
   createCanvas(600, 600);
-  background("Grey");
+  background(200, 255, 255);
 
   var convert = function(ar) {
     var newAr = [];
@@ -92,25 +92,32 @@ function setup() {
   var OldAvg = sum(Old) / Old.length;
   var NewAvg = sum(New) / New.length;
   var size = 300000
-
+  stroke(30, 0 ,30);
   textSize(25);
-  fill("Black");
-  strokeWeight(0);
+  fill(200, 0, 150);
+  strokeWeight(3);
   var oldenergy = rect(width / 1.75, 800 - (OldAvg / size) - 300, width / 4, OldAvg / size);
   oldenergy;
-  fill("White")
-  strokeWeight(1);
+  fill(100, 30, 250)
+  strokeWeight(2);
   var newenergy = rect(width / 5, 800 - (NewAvg / size) - 300, width / 4, NewAvg / size);
   newenergy;
 
   fill("Blue");
+  stroke("Black")
+  strokeWeight(0)
   text(round(OldAvg), width / 1.65, height * .9);
   text(round(NewAvg), width / 4.5, height * .9);
   
   textSize(50);
-  fill("Yellow")
-  strokeWeight(1);
-  text("Average Energy Use", width / 5, height / 6);
+  fill("White")
+  strokeWeight(5);
+  stroke("black");
+  text("Average Energy Use", width / 7, height / 6);
+  
+  fill("Black")
+  rect(0, height * .835, width, 0);
+  
 
 
 
