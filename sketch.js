@@ -59,18 +59,7 @@ var sum = function(ar) {
 //This function takes in an array of Site_Energy_Use
 //and converts it into an array of numbers
 //omitting any that appear as "Not Available"
-//This would be done in one function using JQuery
-//but as /*| |,/g does not work as /* is a function
-//I will have to separate it into two functions
-//convert1 removes "* " from a string
-//and convert running convert1 over an array
-//in addition to removing all commas
-/*var convert1 = function(st) {
-  var newAr = "";
-  newAr = st.replace("* ", "");
-  return newAr;
-}
-*/
+
 function setup() {
   createCanvas(600, 600);
   background(200, 255, 255);
