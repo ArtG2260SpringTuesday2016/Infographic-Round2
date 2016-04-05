@@ -31,7 +31,6 @@ function setup() {
     stars[i].display();
   }
 
-
 function Star(){
   this.x = random(0, width);
   this.y = random(0, height);
@@ -55,9 +54,9 @@ function Star(){
   ellipse(moon.x - 20, moon.y - 30, moon.size - 78, moon.size - 78)
   ellipse(moon.x - 20, moon.y, moon.size - 85, moon.size - 85)
 
-  // Adding Line at 0
-    stroke(300);
-    line(200, 250, 800, 250);
+// Adding Line at 0
+  stroke(300);
+  line(200, 250, 800, 250);
 
 // Creating Histogram
   noStroke()
@@ -71,22 +70,23 @@ function Star(){
   rect(590,80,350,30), // Rectangle Behind Text
   fill(255),
   text("From January 4 to January 30 2016", 603, 102)
+}
 
-// Adding Hover
-  if (dist(mouseX, mouseY, 200, 800) < 800){
-  fill(255,0,0)
-  ellipse(200,200,400,400)
-}
-}
   function mouseMoved() {
     for(i = 0; i < myData.length; i++) {
       var spd = myData[i];
       var barWidth = 13
       var spacing = i * (5 + barWidth);
     if (abs((spacing + (barWidth / 2)) - mouseX) < (barWidth / 2) && spd.date != "filler") {
+      fill(0)
+      rect(0, 175, width, 60)
+      noStroke()
+      fill(34,148,143) // Blue for Histogram
+      graph(myData);
+      fill(255)
       textSize(15)
       text(spd.date,spacing + (barWidth / 2),200)
-      text("Interest Level: " + spd.interest, spacing + (barWidth / 2), 220)
+      text("Interest Level: " + spd.interest, spacing + (barWidth / 2), 220, "hotpink")
+      }
     }
-  }
   }
