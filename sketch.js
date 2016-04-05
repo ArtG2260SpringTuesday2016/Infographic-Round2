@@ -13,7 +13,9 @@ var splitWords = function(aStringOfLyrics) {
   return aStringOfLyrics.toLowerCase().split(" ");
 }
 
-//Kanye: Me vs We
+// Kanye: Me vs We
+// Split this string instead of using an array because it's simpler than
+// to lowercase an array.
 var meWords = splitWords("I me Kanye West")
 var weWords = splitWords("you we youre they he she them")
 
@@ -47,6 +49,7 @@ var albumWordCount = function(anAlbum, aWord) {
   return wordCount;
 }
 
+// returns an object of objects with counts
 var countsOfAnAlbum = function (anAlbum, wordList) {
   var albumCount = {};
   albumCount[anAlbum.name] = {};
@@ -59,6 +62,7 @@ var countsOfAnAlbum = function (anAlbum, wordList) {
   return albumCount;
 }
 
+// returns an array of objects with counts
 var countsInAllAlbums = function(aDiscography, wordList) {
   var discographyCount = []
 
@@ -68,9 +72,10 @@ var countsInAllAlbums = function(aDiscography, wordList) {
   return discographyCount;
 }
 
-console.log(countsInAllAlbums(discography, meWords))
-console.log(countsInAllAlbums(discography, weWords))
-
+console.log("meWords:")
+console.log("  ", countsInAllAlbums(discography, meWords))
+console.log("weWords:")
+console.log("  ", countsInAllAlbums(discography, weWords))
 
 
 var hoverOnAlbums = function(aDiscography) {
