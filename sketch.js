@@ -1,7 +1,7 @@
 //var scaleValue = 10000
 var dataArr = [];
 var dataArrLength = dataArr.length;
-var dataValueText = "Snowfall in inches in Boston in January from 2010-2016";
+var dataValueText = "Snowfall in Boston in January from 2010-2016 in";
 
 // Snowfall in inches in Boston, MA on each day in January over the included years (2010-2016)
 function setup() {
@@ -113,5 +113,5 @@ function draw()
   }
   textStyle(NORMAL);
   textSize(13);
-  text(dataValueText, 500, 500);
+  text(dataValueText + " inches",  500, 500);
 }
