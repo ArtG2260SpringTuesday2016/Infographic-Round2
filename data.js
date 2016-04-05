@@ -1,5 +1,4 @@
-//var discography = {};
-var discography= [
+var discography = [
   {
     name: "The College Dropout",
     albumLoc: [40, 550],
@@ -46,140 +45,85 @@ var discography= [
       },
       {
         name: "The New Workout Plan",
-        lyrics: "[Intro] You just popped in the Kanye West Get right for the summer workout tape And ladies if you follow these instructions exactly You might bear to pull you a rapper, a NBA player Man, at least a dude wit' a car So first of all we gon' work on the stomach Nobody wants a little tight ass! 1 and 2 and 3 and 4 and get them sit ups right and Tuck your tummy tight and do your crunches like this Give head, stop breathe, get up, check your weave Don't drop the blunt and disrespect the weed Pick up your son and don't disrespect your seed It's a party tonight and ooh she's so excited Tell me who's invited: you, your friends and my dick What's scary to me is Henny makes girls look like Halle Berry to me So excuse me miss, I forgot your name Thank you, God bless you, good night I came.. I came... I came.. It's been a week without me And she feels weak without me She wanna talk it out but Ain't nothin to talk about less She talks about freakin out so Maybe we can work it out Work it out [4x] Maybe we could work it out Oh girl your silhouette make me wanna light a cigarette My name Kanye from the Jigga set Twista said get it wet Ooh, girl your breath is HARSH Cover your mouth up like you got SARS Off them tracks yea I bought them cars Still killa a nigga on 16 bars We ain't sweatin' to the oldies we jukin to a cold beat Maybe one day girl we can bone So you can brag to all your homies now But I still mess with a big girl if you ain't fit girl I'll hit girl 1 and you brought 2 friends OK 3 more now hop in the Benz 4 door do you know the difference between a 5, 6, 7, 8 All the mocha lattes you gotta do Pilates You gotta pop this tape in before you start back dating Hustlers, gangstas, all us, ballas Hi, may name is Jill, I just want to say thanks to Kanye's workout plan. I was able to pull a NBA player And like now I shop every day on Rodeo drive I just want to say, thank you Kanye! woooo! woooo! woooo! My name is Lasandra, and I just want to say that ever since listenin' to Kanye's workout tape I was able to get my phone bill paid, I got sounds and 13's put up in my Cavalier and I was able to get a free trip to Cancun And what's most importantly is that I ain't gotta fuck Ray Ray's broke ass no mo' (Work it mo' juge it mo' pump it mo, Chi-town mo' let's go mo') My name is Alamae from Mobille, Alabama and I just want to say since listenin' to Kanye's workout tape I been able to date outside the family, I got a double wide And I rode the plane, rode the plane, rode the plane Thanks to Kanye's workout plan I'm the envy of all my friends See I pulled me a baller man (yeah) And I don't gotta work at the mall again\
-(Lemme break ya wit a piece of) \
-My favorite work out plan (oh! oh! oh!)\
-I wanna see you work out (yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah)\
-(Its that old Michael Jackson shit)\
-\
-Thats right put in work, move your ass, go wizzerk\
-Eat your salad, no dessert\
-Get that man you deserve\
-Its Kanyes workout plan\
-I said its Kanyes workout plan (Ladies and gentlemen)\
-Its Kanyes workout plan (Allow myself to introduce myself)\
-His woooorrrrkkoouut plan (This time around I want yall to clap like this)\
-\
-That's right, put in work\
-Move your ass, go wizzerk\
-Eat your salad, no dessert\
-Get that man you deserve (Stop!)\
-It's Kanye's workout plan (Ok bring)\
-I said it's Kanye's workout plan (I know y'all ain't tired)\
-It's Kanye's workout plan (But I hope not, 'cuz on this one I need ya)\
-His woooorrrrkkoouut plan (To give me a soul clap ok? Double time)\
-\
-That's right, put in work (Woo!)\
-Move your ass, go wizzerk (Ow!\
-Eat your salad, no dessert (Ugh!)\
-Get that man you deserve\
-\
-That's right, put in work (Put in work)\
-Move your ass, go wizzerk (Go wizzerk)\
-Eat your salad, no dessert (No dessert)\
-Get that man you deserve (You hear, ugh)\
-\
-Thats right, put in work (Thats right put in work)\
-Move your ass, go wizzerk (Go wizzerk)\
-Eat your salad, no dessert (Eat your salad, no dessert)\
-Get that man you deserve (Woo!)\
-\
-(Okay, okay, okay, thats, thatd be good) [Applause and cheering]\
-(I appreciate your time)\
-I want to see you work out for me\
-Woah, yeah"
+        lyrics: "[Intro] You just popped in the Kanye West Get right for the summer workout tape And ladies if you follow these instructions exactly You might bear to pull you a rapper, a NBA player Man, at least a dude wit' a car So first of all we gon' work on the stomach Nobody wants a little tight ass! 1 and 2 and 3 and 4 and get them sit ups right and Tuck your tummy tight and do your crunches like this Give head, stop breathe, get up, check your weave Don't drop the blunt and disrespect the weed Pick up your son and don't disrespect your seed It's a party tonight and ooh she's so excited Tell me who's invited: you, your friends and my dick What's scary to me is Henny makes girls look like Halle Berry to me So excuse me miss, I forgot your name Thank you, God bless you, good night I came.. I came... I came.. It's been a week without me And she feels weak without me She wanna talk it out but Ain't nothin to talk about less She talks about freakin out so Maybe we can work it out Work it out [4x] Maybe we could work it out Oh girl your silhouette make me wanna light a cigarette My name Kanye from the Jigga set Twista said get it wet Ooh, girl your breath is HARSH Cover your mouth up like you got SARS Off them tracks yea I bought them cars Still killa a nigga on 16 bars We ain't sweatin' to the oldies we jukin to a cold beat Maybe one day girl we can bone So you can brag to all your homies now But I still mess with a big girl if you ain't fit girl I'll hit girl 1 and you brought 2 friends OK 3 more now hop in the Benz 4 door do you know the difference between a 5, 6, 7, 8 All the mocha lattes you gotta do Pilates You gotta pop this tape in before you start back dating Hustlers, gangstas, all us, ballas Hi, may name is Jill, I just want to say thanks to Kanye's workout plan. I was able to pull a NBA player And like now I shop every day on Rodeo drive I just want to say, thank you Kanye! woooo! woooo! woooo! My name is Lasandra, and I just want to say that ever since listenin' to Kanye's workout tape I was able to get my phone bill paid, I got sounds and 13's put up in my Cavalier and I was able to get a free trip to Cancun And what's most importantly is that I ain't gotta fuck Ray Ray's broke ass no mo' (Work it mo' juge it mo' pump it mo, Chi-town mo' let's go mo') My name is Alamae from Mobille, Alabama and I just want to say since listenin' to Kanye's workout tape I been able to date outside the family, I got a double wide And I rode the plane, rode the plane, rode the plane Thanks to Kanye's workout plan I'm the envy of all my friends See I pulled me a baller man (yeah) And I don't gotta work at the mall again (Lemme break ya wit a piece of)  My favorite work out plan (oh! oh! oh!) I wanna see you work out (yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah) (Its that old Michael Jackson shit) Thats right put in work, move your ass, go wizzerk Eat your salad, no dessert Get that man you deserve Its Kanyes workout plan I said its Kanyes workout plan (Ladies and gentlemen) Its Kanyes workout plan (Allow myself to introduce myself) His woooorrrrkkoouut plan (This time around I want yall to clap like this) That's right, put in work Move your ass, go wizzerk Eat your salad, no dessert Get that man you deserve (Stop!) It's Kanye's workout plan (Ok bring) I said it's Kanye's workout plan (I know y'all ain't tired) It's Kanye's workout plan (But I hope not, 'cuz on this one I need ya) His woooorrrrkkoouut plan (To give me a soul clap ok? Double time) That's right, put in work (Woo!) Move your ass, go wizzerk (Ow! Eat your salad, no dessert (Ugh!) Get that man you deserve That's right, put in work (Put in work) Move your ass, go wizzerk (Go wizzerk) Eat your salad, no dessert (No dessert) Get that man you deserve (You hear, ugh) Thats right, put in work (Thats right put in work) Move your ass, go wizzerk (Go wizzerk) Eat your salad, no dessert (Eat your salad, no dessert) Get that man you deserve (Woo!) (Okay, okay, okay, thats, thatd be good) [Applause and cheering] (I appreciate your time) I want to see you work out for me Woah, yeah"
       },
       {
         name: "Slow Jamz",
-        lyrics: "Are you gonna be?\
-Say that you're gonna be\
-\
-Oh Oh Oh Oh Oh...\
-\
-She said she wants some Marvin Gaye, some Luther Vandross, a little Anita, will definitely set this party off right\
-(Are you gonna be, are you gonna be, are you gonna be, are you gonna be, are you gonna be? Well well well well well)\
-She said she want some Ready for the World, some New Edition, some Minnie Ripperton, and definitely set this party off right\
-(Are you gonna be, are you gonna be, are you gonna be, are you gonna be, are you gonna be? Well well well well well)\
-\
-I told her to drive over in your new whip\
-Bring some friends you cool with\
-I'm gonna bring the cool whip\
-Then I want you to strip\
-See you is my new chick\
-So we get our grind on\
-She be grabbing, calling me Biggie like Shine home\
-Man, I swear she fine homes\
-Why she always lying though\
-Telling me them diamonds when she know they rhinestones\
-She got a light skinned friend look like Michael Jackson\
-Got a dark skinned friend look like Michael Jackson\
-I play 'Ready for the World' - she was ready for some action\
-My dawg said you ain't no freak, so you got to prove my man wrong\
-I'm a play this Vandross\
-You're gonna take your pants off\
-I'm gonna play this Gladys Knight\
-Me and you're gonna get right\
-\
-Got you looking at the gliss at my hands and wrists\
-While I'm laying back smoking on my cannabis\
-When it come to rocking the rhythm like Marvin and Luther\
-I can tell you ain't no messing with Kan-man and Twist\
-From the Chi and I be\
-Sipping Hennessy\
-Play some R&B\
-Trying to smoke a B\
-Looking properly\
-Feeling on a G?\
-And always (well well well well well)\
-Come with me and sip on some Evelyn Champagne\
-You ain't know Twista can work it like the Whispers\
-Hit the stop light, get into some Isaac\
-The rims still moving so I'm bumping little spinners\
-While I'm smoking on a B\
-Dipping through the streets\
-Bumping R&B\
-And I got to leave\
-something to the 23's?\
-And I do it (well well well well well)\
-With my earth and the wind smoke a fire\
-Let me when get your sheets wet listening to Keith Sweat\
-Put you in a daze for maze\
-Fullfilling our every temptation slow jamming having deep sex\
-You ready for the world girl\
-Come on over make me touch you all over your body baby don't say no to me\
-An every moment you controllin' me I'm loving the way you be holding me when I be listening to Jodeci\
-And when I come over and bend your ass\
-You be bumping Teddy Pendergrass\
-I'd hit it from the back to the melody to roll it slow\
-Now I gotta go up in it fast, but I'm gonna finish last\
-No matter how much of a thug you see\
-I still spit it like it's R&B, so to the club with me\
-And with some Luther come on and hope you finna and still be in love with me\
-\
-Baby drop another slow jam\
-And all us lovers need hold hands\
-And if you ain't got no man hop up in my Brougham\
-I keep it pimping like an old man\
-You got to roll with the plan\
-Cause after that then I\
-Take it to the dome\
-Then I got to bone\
-Stay up in the zone\
-Got to get you home\
-Gotta run up on\
-And I do it (well well well well well)\
-Baby drop another slow jam\
-And all us lovers need hold hands\
-And if you ain't got no man hop up on my brohem\
-I keep it pimping like an old man\
-You got to roll with the plan\
-Cause after that then I\
-Take you to my home\
-And we could get it on\
-Disconnect the phone\
-Just to get you goin'\
-Trying to make you moan\
-And I do it (well well well well well)"
+        lyrics: "Are you gonna be? Say that you're gonna be Oh Oh Oh Oh Oh... She said she wants some Marvin Gaye, some Luther Vandross, a little Anita, will definitely set this party off right (Are you gonna be, are you gonna be, are you gonna be, are you gonna be, are you gonna be? Well well well well well) She said she want some Ready for the World, some New Edition, some Minnie Ripperton, and definitely set this party off right (Are you gonna be, are you gonna be, are you gonna be, are you gonna be, are you gonna be? Well well well well well) I told her to drive over in your new whip Bring some friends you cool with I'm gonna bring the cool whip Then I want you to strip See you is my new chick So we get our grind on She be grabbing, calling me Biggie like Shine home Man, I swear she fine homes Why she always lying though Telling me them diamonds when she know they rhinestones She got a light skinned friend look like Michael Jackson Got a dark skinned friend look like Michael Jackson I play 'Ready for the World' - she was ready for some action My dawg said you ain't no freak, so you got to prove my man wrong I'm a play this Vandross You're gonna take your pants off I'm gonna play this Gladys Knight Me and you're gonna get right Got you looking at the gliss at my hands and wrists While I'm laying back smoking on my cannabis When it come to rocking the rhythm like Marvin and Luther I can tell you ain't no messing with Kan-man and Twist From the Chi and I be Sipping Hennessy Play some R&B Trying to smoke a B Looking properly Feeling on a G? And always (well well well well well) Come with me and sip on some Evelyn Champagne You ain't know Twista can work it like the Whispers Hit the stop light, get into some Isaac The rims still moving so I'm bumping little spinners While I'm smoking on a B Dipping through the streets Bumping R&B And I got to leave something to the 23's? And I do it (well well well well well) With my earth and the wind smoke a fire Let me when get your sheets wet listening to Keith Sweat Put you in a daze for maze Fullfilling our every temptation slow jamming having deep sex You ready for the world girl Come on over make me touch you all over your body baby don't say no to me An every moment you controllin' me I'm loving the way you be holding me when I be listening to Jodeci And when I come over and bend your ass You be bumping Teddy Pendergrass I'd hit it from the back to the melody to roll it slow Now I gotta go up in it fast, but I'm gonna finish last No matter how much of a thug you see I still spit it like it's R&B, so to the club with me And with some Luther come on and hope you finna and still be in love with me Baby drop another slow jam And all us lovers need hold hands And if you ain't got no man hop up in my Brougham I keep it pimping like an old man You got to roll with the plan Cause after that then I Take it to the dome Then I got to bone Stay up in the zone Got to get you home Gotta run up on And I do it (well well well well well) Baby drop another slow jam And all us lovers need hold hands And if you ain't got no man hop up on my brohem I keep it pimping like an old man You got to roll with the plan Cause after that then I Take you to my home And we could get it on Disconnect the phone Just to get you goin' Trying to make you moan And I do it (well well well well well)"
+      },
+      {
+        name: "Breathe In Breathe Out",
+        lyrics: ""
+      },
+      {
+        name: "School Spirit (skit 1)",
+        lyrics: ""
+      },
+      {
+        name: "School Spirit",
+        lyrics: ""
+      },
+      {
+        name: "School Spirit (skit 2)",
+        lyrics: ""
+      },
+      {
+        name: "Lil Jimmy",
+        lyrics: ""
+      },
+      {
+        name: "Two Words",
+        lyrics: ""
+      },
+      {
+        name: "Through the Wire",
+        lyrics: ""
+      },
+      {
+        name: "Family Business",
+        lyrics: ""
+      },
+      {
+        name: "Last Call",
+        lyrics: ""
+      },
+    ]
+  },
+  {
+    name: "The College Dropout II",
+    albumLoc: [40, 550],
+    songs: [
+      {
+        name: "Intro",
+        lyrics: ""
+      },
+      {
+        name: "Spaceship",
+        lyrics: "I've been workin' this graveshift and I ain't made shit I wish I could buy me a spaceship and fly past the sky I've been workin' this graveshift and I ain't made shit I wish I could buy me a spaceship and fly past the sky Man, man, man If my manager insults me again I will be assaulting him After I fuck the manager up then I'm gonna shorten the register up Let's go back, back to the Gap Look at my check, wasn't no scratch So if I stole, wasn't my fault Yeah I stole, never got caught They take me to the back and pat me Askin' me about some khakis But let some black people walk in I bet they show off their token blackie Oh now they love Kanye, let's put him all in the front of the store Saw him on break next to the 'No Smoking' sign with a blunt and a Mall' Takin' my hits, writin' my hits Writin' my rhymes, playin' my mind This fuckin' job can't help him So I quit, y'all welcome Y'all don't know my struggle Y'all can't match my hustle You can't catch my hustle You can't fathom my love dude Lock yourself in a room doin' five beats a day for three summers That's a different world like Kree Summers I deserve to do these numbers The kid that made that deserves that Maybach So many records in my basement I'm just waitin' on my spaceship, blaow I've been workin' this graveshift and I ain't made shit I wish I could buy me a spaceship and fly past the sky I've been workin' this graveshift and I ain't made shit I wish I could buy me a spaceship and fly past the sky Man, I'm talkin' way past the sky Let's go, yeah And I didn't even try to work a job Represent the mob At the same time thirsty on the grind Chi state of mind Lost my momma, lost my mind My life, my love that's not mine Why you ain't signed? Wasn't my time Leave me alone, work for y'all Half of it's yours, half of it's mine Only one to ball Never one to fall Gotta get mine Gotta take mine Got a tech nine Reach my prime Gotta make these haters respect mine In the mall 'til 12 when my schedule said nine Puttin' them pants on shelves Waitin' paitently I ask myself Where I wanna go, where I wanna be Life is much more than runnin' in the streets Holla at 'ye, hit me with the beat Put me on my feet Sound so sweet Yes I'm the same ol' G, same goatee Stayin' low key, nope Holler at God Man why'd you had to take my folks?  Hope to see Freddy G., Yusef G Love my G, Rolly G Police watch me smoke my weed, count my G's Got a lot of people countin' on me And I'm just tryin' to find my peace Should of finished school like my niece Then I wouldn't finally wouldn't use my piece, blaow Aw man, all this pressure I've been workin' this graveshift and I ain't made shit I wish I could buy me a spaceship and fly past the sky I've been workin' this graveshift and I ain't made shit I wish I could buy me a spaceship and fly past the sky I remember havin' to take the dollar cab Comin' home real late at night Standin' on my feet all damn day Tryin' to make this thing right And havin' one of my co-workers say Yo you look just like This kid I seen in the old Busta Rhymes video the other night Well easy come, easy go How that sayin' goes No more broad service, cars, and them TV shows I all had that snatched from me And all the faculties all turn their back on me And didn't wanna hear a rap from me So naturally actually had to face things factually Had to be a catastrophe with the fridgest starin' back at me Cuz nothing's there, nothing's fair I don't wanna ever go back there So I won't be takin' no days off 'til my spaceship takes off I've been workin' this graveshift and I ain't made shit I wish I could buy me a spaceship and fly past the sky I've been workin' this graveshift and I ain't made shit I wish I could buy me a spaceship and fly past the sky I wanna fly, I wanna fly I said I want my chariot to pick me up And take me brother for a ride"
+      },
+      {
+        name: "Jesus Walks",
+        lyrics: "Yo, we at war We at war with terrorism, racism, and most of all we at war with ourselves (Jesus walks) God show me the way because the Devil trying to break me down (Jesus walks with me) with me, with me, with me [fades] You know what the Midwest is? Young & Restless Where restless (niggas) might snatch your necklace And next these (niggas) might jack your Lexus Somebody tell these (niggas) who Kanye West is I walk through the valley of the shadow of death is Top floor the view alone will leave you breathless Uhhhh! Try to catch it Uhhhh! It's kinda hard Getting choked by the detectives yeah yeah now check the method They be asking us questions, harass and arrest us Saying, We eat pieces of shit like you for breakfast. Huh? Y'all eat pieces of shit? What's the basis? We ain't going nowhere but got suits and cases A trunk full of coke rental car from Avis My mamma used to say only Jesus can save us Well mamma I know I act a fool But I'll be gone 'til November I got packs to move I Hope (Jesus walks) God show me the way because the Devil trying to break me down (Jesus walks with me) The only thing that that I pray is that my feet don't fail me now (Jesus walks) And I don't think there is nothing I can do now to right my wrongs (Jesus walks with me) I want to talk to God but I'm afraid because we ain't spoke in so long To the hustlers, killers, murderers, drug dealers even the strippers (Jesus walks with them) To the victims of Welfare for we living in hell here hell yeah (Jesus walks with them) Now hear ye hear ye want to see Thee more clearly I know he hear me when my feet get weary Cause we're the almost nearly extinct We rappers are role models we rap we don't think I ain't here to argue about his facial features Or here to convert atheists into believers I'm just trying to say the way school need teachers The way Kathie Lee needed Regis that's the way I need Jesus So here go my single dog radio needs this They say you can rap about anything except for Jesus That means guns, sex, lies, video tapes But if I talk about God my record won't get played Huh? Well if this take away from my spins Which will probably take away from my ends Then I hope this take away from my sins And bring the day that I'm dreaming about Next time I'm in the club everybody screaming out (Jesus walks) God show me the way because the devil trying to break me down (Jesus walks) The only thing that that I pray is that my feet don't fail me now (Jesus walks) And I don't thing there's nothing I can do now to right my wrongs (Jesus walks with me... fades) I want to talk to God but I'm afraid because we ain't spoke in so long"
+      },
+      {
+        name: "Never Let Me Down",
+        lyrics: "Yeah Grandmama Told you I won't let you down Told you I won't let this rap game change me, right? When it comes to being true, at least true to me One thing I found,one thing I found Oh no you'll neva let me down, Get up I get(down) Get up I get(down) Get up I get(down) Get up I get(down) Get up I get(down) Get up I get(down) Yo, yo first I snatched the street then I snatched the charts, First had they ear now I have they're heart, Rappers came and went, I've been hear from the start, Seen them put it together Watch them take it apart, See the Rovers roll up wit ribbons I've seen them re-poed, re-sold and re-driven So when I reload, he holds #1 position When u hot I'm hot And when your feet cold, mines is sizzelin It's plain to see Nigga's can't f*** wit me Cuz ima be that nigga fo life This is not an image This is God given This is hard liven Mixed wit crystal sipping It's the most consistent Hov Give you the most hits you can fit inside a whole disc and Nigga I'm home on these charts, y'all niggaz visitin It's Hov tradition, Jeff Gordan of rap I'm back to claim pole position, holla at ya boy I get down for my grandfather who took my momma Made her sit that seat where white folks ain't wanna us to eat At the tender age of 6 she was arrested for the sit in With that in my blood I was born to be different Now niggas can't make it to ballots to choose leadership But we can make it to Jacob and to the dealership That's why I hear new music And I just don't be feeling it Racism still alive they just be concealing it But I know they don't want me in the damn club They even made me show I.D to get inside of Sam's club I did dirt and went to church to get my hands scrubbed Swear I've been baptised at least 3 or 4 times But in the land where nigga's praise Yukons and getting paid It gon' take a lot more than coupons to get us saved Like it take a lot more than do-rags to get your waves Noting sadder than that day my girl father past away So I promised to Mr Rany I'm gonna marry your daughter And u know I gotta thank u for they way that she was brought up And I know that u were smiling when u see that car I bought her And u sent tears from heaven when u seen my car get balled up But I can't complaint what the accident did to my Left Eye Cuz look what a accident did to Left Eye First Aaliyah and now romeo must die I know a got angels watching me from the other side We are all here for a reason on a particular path You don't need a curriculum to know that you are part of the math Cats think I'm delirious, but I'm so damn serious That's why I expose my soul to the globe, the world I'm trying to make it better for these little boys and girls I'm not just another individual, my spirit is a part of this That's why I get spiritual, but I get my hymns from Him So it's not me, it's He that's lyrical I'm not a miracle, I'm a heaven-sent instrument My rhythmatic regimen navigates melodic notes for your soul and your mental That's why I'm instrumental Vibrations is what I'm into Yeah, I need my loot by rent day But that is not what gives me the heart of Kunte Kinte I'm tryina give us us free like Cinque I can't stop, that's why I'm hot Determination, dedication, motivation I'm talking to you, my many inspirations When I say I can't, let you or self down If I were of the highest cliff, on the highest riff And you slipped off the side and clinched on to your life in my grip I would never, ever let you down And when these words are found Let it been known that God's penmanship has been signed with a language called love That's why my breath is felt by the deaf And why my words are heard and confined to the ears of the blind I, too, dream in color and in rhyme So I guess I'm one of a kind in a full house Cuz whenever I open my heart, my soul, or my mouth A touch of God reigns out Who else you know been hot this long, (Oh Ya, you know we ain't finished) Started from nothing but he got this strong, (The ROC is in the building) Built the ROC from a pebble, pedalled rock before I met you, Pedalled bikes, got my nephews pedal bikes because they special, Let you tell that man I'm falling, Well somebody must've caught him, Cause every fourth quarter, I like to Mike Jordan 'em, Number one albums, what I got like four of dem, More of dem on the way, The Eight Wonder on the way, Clear the way, I'm here to stay, Y'all can save the chitter chat, this and that, this and Jay, Dissin' Jay 'ill get you mased, When I start spitting them lyrics, niggas get very religious, Six Hail Maries, please Father forgive us, Young, the Archbishop, the Pope John Paul of y'all niggas, The way y'all all follow Jigga, Hov's a living legend and I tell you why, Everybody wanna be Hov and Hov still alive."
+      },
+      {
+        name: "Get Em High",
+        lyrics: "I'm trying to catch the beat, uh I'm trying to catch the beat I'm trying to catch the beat, uh uh, uh I'm trying to catch the beat Now, throw your motherfucking hands GET 'EM HIGH All the girls pass the weed to your motherfucking man GET 'EM HIGH Now I ain't never tell you to put down your hands KEEP 'EM HIGH And if your losing your high then* smoke again KEEP 'EM HIGH Now, my flow Is in the pocket like wallets, I got the bounce like hydraulics I can't call it, I got the swerve like alcoholics My freshman year I was going through hella problems 'til I built up the nerve to drop my ass up outta college My teacher said Im a loser, I told her why dont you kill me I give a fuck if you fail me, Im gonna follow my heart, And if you follow the charts, or the plaques or the stacks You aint gotta guess whos back, You see Im so Chi that you thought it was bashful But this bastards flow will bash a skull And I will cut your girl like Pastor Troy And I dont usually smoke but pass the dro And I wont give you that money that you asking for Why you think me and Dame cool? We re assholes! Thats why we hear your music in fast forward Cause we dont wanna hear that weak shit no more Now who the hell is this? E-mailing me at 11:26, telling me that she 36-26, plus double D You know how girls on black planet be when they get bubbly At NYU but she hail from Kansas, right now she just lampin, chilling on campus Sent me a picture with her feeling on Candice Who said her favorite rapper was the late great Francis W-H-I-T, its getting late mami, your screen saver say tweet So you got to call me, and bring a friend for my friend His name Kweli (You mean Talib, lyrics stick to your rib) I mean (Thats my favorite CD that I play in my crib) I mean (You dont really know him, why is you lying) You Kwe, she dont believe me, please pick up the line Shes gonna think that Im lying, just spit a couple of lines Then maybe Ill be able to give her dick all the time, and get her high Yeah, I cant believe this nigga use my name for picking up dimes But never mind, I need some tracks you trying to pull tracks out And my rhymes is finna blow you trying to blow backs out Well OK, you twisted my arm, I ll assist with the charm, aiyyo Aint you meet that chick at that conference with your mom? Shes the bomb, but she got the boujee behavior Always got something to say like an OK player hater Anyway, I dont usually fuck with the Internet Or chicks on Birth Control stuck to they arm like Nicorette You really fucking that much, you trying to get off cigarettes And she think its fly, she aint met a real nigga yet I apologize if I come off a little inconsiderate I got the bubble kush and a sister could get a hit of it Get em high like noon, or the moon or room filled with smoke A high filled with dope You all assumed I was doomed, out of tune, but I still feel the notes The real nigga quotes Real rappers is hard to find like a remote control, Rap is not a used to but still got love, Thats why I abuse you who are not thugs Rock clubs, its like Tiger Woods in the hood, to have my own reality show Called Soul Survivor, I stole all liver, niggas in you You s a bitch I got ones that are thicker than you How could I ever let your words affect me, they say Hip-Hop is dead I m here to resurrect me, mosh is too sexy to even make songs like these Thats why the raw dont know your name, like Alicia Keys Too many featured MCs, and producers is popular Twelve thousand spins, nobody got to copping her Album, how come, you the hot garbage of The year, Its clear your image is snooped up Label got you souped up, telling you youre sick Man you a dick with a loose nut Video hard to watch like Medusa Even your club record need a booster Chimped up, with a pimp cup, illiterate nigga Read the infa, red across your head Imma bred King like Simba Boulder then Denver, I aint a Madd Rapper just a MC with a temper You dancing for money like honey, I did this my way So when the industry crash, I survive like Kanye Spitting through wires and fires, MCs retiring Got your hands up, get them motherfuckers higher then"
+      },
+      {
+        name: "Workout Plan",
+        lyrics: "Ay Wussup gurl Heyy gurl Hey How u doin'? Ay you know i finally got my shit together been watchin that workout plan gurl!! Well you lookin' all good and stuff you got you a- Gurl i know it's that workout Got you a six pack shakuar and stuff Don't say it my nigga my nigga i'm tired of puttin 1-8-7 in my niggas pager that shit aint workin' no more Gurl you know i'ma video hofesional now (Gurl) since i copped this new workout plan my shit is right rollin' in lexus, acruasss everything gurll Gurl u need to let me know where i can cop that how much is it? Gurl you know you ain't gotta pay nuttin' around me i'm tha bootleg queeen i'll give it to you for free.99 FREE.99!! That's my dawg you always lookin out for us My nigga now i can throw away my bus pass and shit oh my God Oh shit"
+      },
+      {
+        name: "The New Workout Plan",
+        lyrics: "[Intro] You just popped in the Kanye West Get right for the summer workout tape And ladies if you follow these instructions exactly You might bear to pull you a rapper, a NBA player Man, at least a dude wit' a car So first of all we gon' work on the stomach Nobody wants a little tight ass! 1 and 2 and 3 and 4 and get them sit ups right and Tuck your tummy tight and do your crunches like this Give head, stop breathe, get up, check your weave Don't drop the blunt and disrespect the weed Pick up your son and don't disrespect your seed It's a party tonight and ooh she's so excited Tell me who's invited: you, your friends and my dick What's scary to me is Henny makes girls look like Halle Berry to me So excuse me miss, I forgot your name Thank you, God bless you, good night I came.. I came... I came.. It's been a week without me And she feels weak without me She wanna talk it out but Ain't nothin to talk about less She talks about freakin out so Maybe we can work it out Work it out [4x] Maybe we could work it out Oh girl your silhouette make me wanna light a cigarette My name Kanye from the Jigga set Twista said get it wet Ooh, girl your breath is HARSH Cover your mouth up like you got SARS Off them tracks yea I bought them cars Still killa a nigga on 16 bars We ain't sweatin' to the oldies we jukin to a cold beat Maybe one day girl we can bone So you can brag to all your homies now But I still mess with a big girl if you ain't fit girl I'll hit girl 1 and you brought 2 friends OK 3 more now hop in the Benz 4 door do you know the difference between a 5, 6, 7, 8 All the mocha lattes you gotta do Pilates You gotta pop this tape in before you start back dating Hustlers, gangstas, all us, ballas Hi, may name is Jill, I just want to say thanks to Kanye's workout plan. I was able to pull a NBA player And like now I shop every day on Rodeo drive I just want to say, thank you Kanye! woooo! woooo! woooo! My name is Lasandra, and I just want to say that ever since listenin' to Kanye's workout tape I was able to get my phone bill paid, I got sounds and 13's put up in my Cavalier and I was able to get a free trip to Cancun And what's most importantly is that I ain't gotta fuck Ray Ray's broke ass no mo' (Work it mo' juge it mo' pump it mo, Chi-town mo' let's go mo') My name is Alamae from Mobille, Alabama and I just want to say since listenin' to Kanye's workout tape I been able to date outside the family, I got a double wide And I rode the plane, rode the plane, rode the plane Thanks to Kanye's workout plan I'm the envy of all my friends See I pulled me a baller man (yeah) And I don't gotta work at the mall again (Lemme break ya wit a piece of)  My favorite work out plan (oh! oh! oh!) I wanna see you work out (yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah) (Its that old Michael Jackson shit) Thats right put in work, move your ass, go wizzerk Eat your salad, no dessert Get that man you deserve Its Kanyes workout plan I said its Kanyes workout plan (Ladies and gentlemen) Its Kanyes workout plan (Allow myself to introduce myself) His woooorrrrkkoouut plan (This time around I want yall to clap like this) That's right, put in work Move your ass, go wizzerk Eat your salad, no dessert Get that man you deserve (Stop!) It's Kanye's workout plan (Ok bring) I said it's Kanye's workout plan (I know y'all ain't tired) It's Kanye's workout plan (But I hope not, 'cuz on this one I need ya) His woooorrrrkkoouut plan (To give me a soul clap ok? Double time) That's right, put in work (Woo!) Move your ass, go wizzerk (Ow! Eat your salad, no dessert (Ugh!) Get that man you deserve That's right, put in work (Put in work) Move your ass, go wizzerk (Go wizzerk) Eat your salad, no dessert (No dessert) Get that man you deserve (You hear, ugh) Thats right, put in work (Thats right put in work) Move your ass, go wizzerk (Go wizzerk) Eat your salad, no dessert (Eat your salad, no dessert) Get that man you deserve (Woo!) (Okay, okay, okay, thats, thatd be good) [Applause and cheering] (I appreciate your time) I want to see you work out for me Woah, yeah"
+      },
+      {
+        name: "Slow Jamz",
+        lyrics: "Are you gonna be? Say that you're gonna be Oh Oh Oh Oh Oh... She said she wants some Marvin Gaye, some Luther Vandross, a little Anita, will definitely set this party off right (Are you gonna be, are you gonna be, are you gonna be, are you gonna be, are you gonna be? Well well well well well) She said she want some Ready for the World, some New Edition, some Minnie Ripperton, and definitely set this party off right (Are you gonna be, are you gonna be, are you gonna be, are you gonna be, are you gonna be? Well well well well well) I told her to drive over in your new whip Bring some friends you cool with I'm gonna bring the cool whip Then I want you to strip See you is my new chick So we get our grind on She be grabbing, calling me Biggie like Shine home Man, I swear she fine homes Why she always lying though Telling me them diamonds when she know they rhinestones She got a light skinned friend look like Michael Jackson Got a dark skinned friend look like Michael Jackson I play 'Ready for the World' - she was ready for some action My dawg said you ain't no freak, so you got to prove my man wrong I'm a play this Vandross You're gonna take your pants off I'm gonna play this Gladys Knight Me and you're gonna get right Got you looking at the gliss at my hands and wrists While I'm laying back smoking on my cannabis When it come to rocking the rhythm like Marvin and Luther I can tell you ain't no messing with Kan-man and Twist From the Chi and I be Sipping Hennessy Play some R&B Trying to smoke a B Looking properly Feeling on a G? And always (well well well well well) Come with me and sip on some Evelyn Champagne You ain't know Twista can work it like the Whispers Hit the stop light, get into some Isaac The rims still moving so I'm bumping little spinners While I'm smoking on a B Dipping through the streets Bumping R&B And I got to leave something to the 23's? And I do it (well well well well well) With my earth and the wind smoke a fire Let me when get your sheets wet listening to Keith Sweat Put you in a daze for maze Fullfilling our every temptation slow jamming having deep sex You ready for the world girl Come on over make me touch you all over your body baby don't say no to me An every moment you controllin' me I'm loving the way you be holding me when I be listening to Jodeci And when I come over and bend your ass You be bumping Teddy Pendergrass I'd hit it from the back to the melody to roll it slow Now I gotta go up in it fast, but I'm gonna finish last No matter how much of a thug you see I still spit it like it's R&B, so to the club with me And with some Luther come on and hope you finna and still be in love with me Baby drop another slow jam And all us lovers need hold hands And if you ain't got no man hop up in my Brougham I keep it pimping like an old man You got to roll with the plan Cause after that then I Take it to the dome Then I got to bone Stay up in the zone Got to get you home Gotta run up on And I do it (well well well well well) Baby drop another slow jam And all us lovers need hold hands And if you ain't got no man hop up on my brohem I keep it pimping like an old man You got to roll with the plan Cause after that then I Take you to my home And we could get it on Disconnect the phone Just to get you goin' Trying to make you moan And I do it (well well well well well)"
       },
       {
         name: "Breathe In Breathe Out",
@@ -220,47 +164,3 @@ And I do it (well well well well well)"
     ]
   }
 ];
-
-
-// discography.asList = function() {
-
-//   console.log(this)
-//   var albumNames = 
-//     ["The College Dropout",
-//     "Late Registration", 
-//     "Graduation", 
-//     "808's and Heartbreak", 
-//     "My Beautiful Dark Twisted Fantasy",
-//     "Watch the Throne",
-//     "Yeezus",
-//     "The Life of Pablo"];
-//   var toret = [];
-
-//   for (name in albumNames) {
-//     toret.push(this[albumNames[name]])
-//   };
-
-//   return toret;
-// }
-
-// discography = function() {
-
-//   console.log(this)
-//   var albumNames = 
-//     ["The College Dropout",
-//     "Late Registration", 
-//     "Graduation", 
-//     "808's and Heartbreak", 
-//     "My Beautiful Dark Twisted Fantasy",
-//     "Watch the Throne",
-//     "Yeezus",
-//     "The Life of Pablo"];
-//   var toReturn = [];
-
-//   for (name in albumNames) {
-//     toReturn.push(this[albumNames[name]])
-//   };
-
-//   return toReturn;
-// }
-

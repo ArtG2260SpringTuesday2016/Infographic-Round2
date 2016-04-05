@@ -7,7 +7,7 @@ var albumNames= function(aDiscography) {
   for (var i = 0; i < aDiscography.length; i++){
     for (var j = 0; j < aDiscography[i].songs.length; j++) {
       text(aDiscography[i].name, aDiscography[i].albumLoc[0],aDiscography[i].albumLoc[1],600,600);
-    
+
     }
   }
 }
@@ -48,12 +48,6 @@ var albumWordCount = function(anAlbum, aWord) {
   return wordCount;
 }
 
-// Example accessing songs in first album:
-// console.log(discography[0].name);
-// console.log('  mentions of "you": ', albumWordCount(discography[0].songs, "we"));
-// console.log('  mentions of "me": ', albumWordCount(discography[0].songs, "me"));
-
-// Another sample to see this in every album
 var countsInAllAlbums = function(aDiscography) {
   for (var i = 0; i < aDiscography.length; i++) {
     console.log(aDiscography[i].name)
@@ -66,9 +60,9 @@ countsInAllAlbums(discography);
 
 var hoverOnAlbums = function(aDiscography) {
     for (var i = 0; i < aDiscography.length; i++){
-        if((mouseX <= (aDiscography[i].albumLoc[0] + 100) 
-        && (mouseX >= (aDiscography[i].albumLoc[0] - 15))) 
-        && ((mouseY <= (aDiscography[i].albumLoc[1] +15)) 
+        if((mouseX <= (aDiscography[i].albumLoc[0] + 100)
+        && (mouseX >= (aDiscography[i].albumLoc[0] - 15)))
+        && ((mouseY <= (aDiscography[i].albumLoc[1] +15))
         && (mouseY >= (aDiscography[i].albumLoc[1]-15)))) {
           fill(51)
           noStroke();
@@ -89,11 +83,10 @@ function setup() {
   textSize(25);
   textFont("Oswald");
   text("Kanye: Me vs We", 40, 50);
-  textSize(12);
   albumNames(discography);
-  
+
 }
 
 function draw() {
-  hoverOnAlbums(discography);
+  // hoverOnAlbums(discography);
 }
