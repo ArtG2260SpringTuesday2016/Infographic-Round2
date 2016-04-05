@@ -107,7 +107,7 @@ function drawRectangleHelpers() {
 
 function draw()
   
-{ background(255);
+{ background(200);
   for (var i = 0; i < dataArrLength; i++) {
     dataArr[i].render();
   }
