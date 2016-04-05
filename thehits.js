@@ -1,4 +1,4 @@
-var data = [
+var thehits = [
   
   "B.J. Thomas",
   "B.J. Thomas",
@@ -2452,8 +2452,5 @@ var data = [
 
 ];
 
-
-
-  
 
 

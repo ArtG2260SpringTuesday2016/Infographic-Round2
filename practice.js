@@ -1,4 +1,3 @@
-
 var hit = false;
 var obj = {};
 for (var i = 0; i < thehits.length; i++) {
@@ -6,20 +5,11 @@ for (var i = 0; i < thehits.length; i++) {
 }
 function setup() {
   createCanvas(1200, 500);
-  textSize(24)
-  textFont("Avenir");
-  text("All The Hits " ,30,30)
-  textSize(12)
-  textFont("Avenir");
-  text("Which artist had the most Billboard Weekly hits from 1970-2016?", 30, 60)
-
-  
+ 
   
  var visTotals = function (obj) { 
    var j = 0;
  for (var prop in obj){
-      fill("orange")
-      strokeWeight(0)
       var barHeight = obj[prop];
       var rectWidth=3;
       rectHeight=barHeight * -10;
@@ -29,9 +19,29 @@ function setup() {
       
     }
     
+         hit = collidePointRect(mouseX,mouseY,visTotals);
+          if(hit){
+		      fill('purple')
+	        }else{
+		      fill('green')
+        	}
+        }
   }
   visTotals(obj);
-
 }
 
 
+
+
+function draw(){
+	noStroke();
+	rect(400,100,200,100);
+
+
+
+	if(hit){ //change color!
+		fill('purple')
+	}else{
+		fill('green')
+	}
+}
