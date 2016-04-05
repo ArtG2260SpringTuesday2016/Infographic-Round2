@@ -4366,77 +4366,976 @@ Where you learn to treat a nigga like this?\
 (Yeezy taught me)\
 Yeezy taught you well, Yeezy taught you well."
       },
+//       {
+//         name: "Lost in the World",
+//         song: "I'm up in the woods, I'm down on my mind\
+// I'm building a still to slow down the time\
+// I'm up in the woods, I'm down on my mind\
+// I'm building a still to slow down the time\
+// I'm up in the woods, I'm down on my mind\
+// I'm building a still to slow down the time\
+// I'm lost in the world, I'm down on my mind\
+// I'm new in the city, and I'm down for the night\
+// Down for the night\
+// Said she's down for the night\
+// You're my devil, you're my angel\
+// You're my heaven, you're my hell\
+// You're my now, you're my forever\
+// You're my freedom, you're my jail\
+// You're my lies, you're my truth\
+// You're my war, you're my truce\
+// You're my questions, you're my proof\
+// You're my stress and you're my masseuse\
+// Mama-say mama-say ma-ma-coo-sah\
+// Lost in this plastic life,\
+// Let's break out of this fake ass party\
+// Turn this into a classic night\
+// If we die in each other's arms we still get laid in the afterlife \
+// If we die in each other's arms we still get laid\
+// (I'm lost in the world)\
+// Run from the lights, run from the night,\
+// (I'm down on my mind)\
+// Run for your life,\
+// I'm new in the city, and I'm down for the night\
+// Down for the night\
+// Down for the night\
+// I'm lost in the world, been down for my whole life,\
+// I'm new in the city but I'm down for the night\
+// Down for the night\
+// Down for the night\
+// Who will survive in America?\
+// Who will survive in America?\
+// Who will survive in America?\
+// I'm lost in the world, I'm down on my mind\
+// I'm new in the city, and I'm down for the night\
+// Down for the night\
+// Said she's down for the night\
+// I'm lost in the world, I'm down on my mind\
+// I'm new in the city and I'm goin' for a ride\
+// Goin' for a ride\
+// I'm lost in the world, been down for my whole life\
+// I'm new in the city but I'm down the for the night\
+// Down for a night, down for a good time\
+// Us living as we do upside down.\
+// And the new word to have is revolution.\
+// People don't even want to hear the preacher spill or spiel because God's whole card has been thoroughly piqued.\
+// And America is now blood and tears instead of milk and honey.\
+// The youngsters who were programmed to continue fucking up woke up one night digging Paul Revere and Nat Turner as the good guys.\
+// America stripped for bed and we had not all yet closed our eyes.\
+// The signs of truth were tattooed across our open ended vagina.\
+// We learned to our amazement the untold tale of scandal.\
+// Two long centuries buried in the musty vault, hosed down daily with a gagging perfume.\
+// America was a bastard, the illegitimate daughter of the mother country whose legs were then spread around the world and a rapist known as freedom, free doom.\
+// Democracy, liberty, and justice were revolutionary code names that preceded the bubbling bubbling bubbling bubbling bubbling in the mother country's crotch\
+// What does Webster say about soul?\
+// All I want is a good home and a wife\
+// And our children and some food to feed them every night.\
+// After all is said and done build a new route to China if they'll have you.\
+// Who will survive in America?\
+// Who will survive in America?\
+// Who will survive in America?\
+// Who will survive in America?"
+//       }//<<<  stops working here
+      ]
+   },{
+    name: "Watch the Throne",
+    albumLoc:[755,550],
+    songs:[
       {
-        name: "Lost in the World",
-        song: "I'm up in the woods, I'm down on my mind\
-I'm building a still to slow down the time\
-I'm up in the woods, I'm down on my mind\
-I'm building a still to slow down the time\
-I'm up in the woods, I'm down on my mind\
-I'm building a still to slow down the time\
-I'm lost in the world, I'm down on my mind\
-I'm new in the city, and I'm down for the night\
-Down for the night\
-Said she's down for the night\
-You're my devil, you're my angel\
-You're my heaven, you're my hell\
-You're my now, you're my forever\
-You're my freedom, you're my jail\
-You're my lies, you're my truth\
-You're my war, you're my truce\
-You're my questions, you're my proof\
-You're my stress and you're my masseuse\
-Mama-say mama-say ma-ma-coo-sah\
-Lost in this plastic life,\
-Let's break out of this fake ass party\
-Turn this into a classic night\
-If we die in each other's arms we still get laid in the afterlife \
-If we die in each other's arms we still get laid\
-(I'm lost in the world)\
-Run from the lights, run from the night,\
-(I'm down on my mind)\
-Run for your life,\
-I'm new in the city, and I'm down for the night\
-Down for the night\
-Down for the night\
-I'm lost in the world, been down for my whole life,\
-I'm new in the city but I'm down for the night\
-Down for the night\
-Down for the night\
-Who will survive in America?\
-Who will survive in America?\
-Who will survive in America?\
-I'm lost in the world, I'm down on my mind\
-I'm new in the city, and I'm down for the night\
-Down for the night\
-Said she's down for the night\
-I'm lost in the world, I'm down on my mind\
-I'm new in the city and I'm goin' for a ride\
-Goin' for a ride\
-I'm lost in the world, been down for my whole life\
-I'm new in the city but I'm down the for the night\
-Down for a night, down for a good time\
-Us living as we do upside down.\
-And the new word to have is revolution.\
-People don't even want to hear the preacher spill or spiel because God's whole card has been thoroughly piqued.\
-And America is now blood and tears instead of milk and honey.\
-The youngsters who were programmed to continue fucking up woke up one night digging Paul Revere and Nat Turner as the good guys.\
-America stripped for bed and we had not all yet closed our eyes.\
-The signs of truth were tattooed across our open ended vagina.\
-We learned to our amazement the untold tale of scandal.\
-Two long centuries buried in the musty vault, hosed down daily with a gagging perfume.\
-America was a bastard, the illegitimate daughter of the mother country whose legs were then spread around the world and a rapist known as freedom, free doom.\
-Democracy, liberty, and justice were revolutionary code names that preceded the bubbling bubbling bubbling bubbling bubbling in the mother country's crotch\
-What does Webster say about soul?\
-All I want is a good home and a wife\
-And our children and some food to feed them every night.\
-After all is said and done build a new route to China if they'll have you.\
-Who will survive in America?\
-Who will survive in America?\
-Who will survive in America?\
-Who will survive in America?"
+        name: "No Church in the Wild",
+        lyrics: "Human beings in a mob\
+What’s a mob to a king?\
+What’s a king to a god?\
+What’s a god to a non-believer?\
+Who don’t believe in anything?\
+We make it out alive\
+All right, all right\
+No church in the wild\
+Tears on the mausoleum floor\
+Blood stains the coliseum doors\
+Lies on the lips of a priest\
+Thanksgiving disguised as a feast\
+Rollin’ in the Rolls-Royce Corniche\
+Only the doctors got this, I’m hidin’ from police\
+Cocaine seats\
+All white like I got the whole thing bleached\
+Drug dealer chic\
+I’m wonderin’ if a thug’s prayers reach\
+Is Pious pious cause God loves pious?\
+Socrates asks, Whose bias do y’all seek\
+All for Plato, screech\
+I’m out here ballin’, I know y’all hear my sneaks\
+Jesus was a carpenter, Yeezy, laid beats\
+Hova flow the Holy Ghost, get the hell up out your seats\
+Preach\
+Human beings in a mob\
+What’s a mob to a king?\
+What’s a king to a god?\
+What’s a god to a non-believer?\
+Who don’t believe in anything?\
+We make it out alive\
+All right, all right\
+No church in the wild\
+I live by you, desire\
+I stand by you, walk through the fire\
+Your love is my scripture\
+Let me into your encryption\
+Coke on her black skin made a stripe like a zebra\
+I call that jungle fever\
+You will not control the threesome\
+Just roll the weed up until I get me some\
+We formed a new religion\
+No sins as long as there’s permission’\
+And deception is the only felony\
+So never fuck nobody wit’out tellin’ me\
+Sunglasses and Advil\
+Last night was mad real\
+Sun comin’ up, 5 a.m.\
+I wonder if they got cabs still\
+Thinkin’ ’bout the girl in all-leopard\
+Who was rubbin’ the wood like Kiki Shepard\
+Two tattoos, one read No Apologies\
+The other said Love is cursed by monogamy\
+That’s somethin’ that the pastor don’t preach\
+That’s somethin’ that a teacher can’t teach\
+When we die, the money we can’t keep\
+But we probably spend it all ’cause the pain ain’t cheap\
+Preach\
+Human beings in a mob\
+What’s a mob to a king?\
+What’s a king to a god?\
+What’s a god to a non-believer?\
+Who don’t believe in anything?\
+Will he make it out alive\
+All right, all right\
+No church in the wild\
+No church in the wild\
+No church in the wild\
+No church in the wild"
+        },
+        {
+          name: "Lift Off",
+          lyrics: "We gon’ take it to the moon, take it to the stars\
+How many people you know can take it this far?\
+I’m supercharged\
+I’m ’bout to take this whole thing to Mars\
+Now we gon’ take it to the moon, take it to the stars\
+You don’t know what we been through to make it this far\
+So many scars\
+‘Bout to take this whole thing to Mars\
+Lift off\
+Lift off, takin’ my coat off\
+Showin’ my tattoos, I’m such a showoff (Huh?)\
+I feel the pain and then rolled off\
+I got the whole city, they about to go off\
+How many niggas wit’ me up in this bitch?\
+How many people wanna roll with me now?\
+Like you know na na na, you know me by now\
+Know me, know me by now\
+We gon’ take it to the moon, take it to the stars\
+How many people you know can take it this far?\
+I’m supercharged\
+I’m ’bout to take this whole thing to Mars\
+Now we gon’ take it to the moon, take it to the stars\
+You don’t know what we been through to make it this far\
+So many scars\
+‘Bout to take this whole thing to Mars\
+(Lift off, ahh, ahh)\
+Like you know na na na, you know me by now\
+Know me, know me by now\
+You know me know me by now\
+Know me, know me by now…\
+Lift off\
+Rappers hear watch the throne\
+They gon be pissed off\
+Earth is boring to em\
+Shit is making my dick soft\
+When you Earnhart as me eventually you hit a big wall\
+5-4-3-2 we need fuel\
+Lift off\
+We gon’ take it to the moon, take it to the stars\
+How many people you know can take it this far?\
+I’m supercharged\
+I’m ’bout to take this whole thing to Mars\
+Now we gon’ take it to the moon, take it to the stars\
+You don’t know what we been through to make it this far\
+So many scars\
+‘Bout to take this whole thing to Mars\
+(20 seconds and counting\
+(T-minus 15 seconds, guidance is internal)\
+(12, 11, 10, 9)\
+(Ignition sequence start)\
+(6, 5, 4, 3, 2, 1)\
+(Zero, all engine running)\
+(Lift off, we have a liftoff)\
+(We gon’ take it to the moon, take it to the stars)\
+(We gon’ take it to the moon, take it to the stars)\
+(How many people you know can take it this far?)\
+(Take it to the stars)\
+(How many people you know can take it this far?)\
+(Now we gon’, now we gon’, now we gon’…)"
+        },
+        {
+          name: "Niggas in Paris",
+          lyrics: "So I ball so hard muhfuckas wanna fine me\
+first niggas gotta find me\
+What’s 50 grand to a muhfucka like me\
+Can you please remind me?\
+Ball so hard, this shit crazy\
+Y’all don’t know that don’t shit phase me\
+The Nets could go 0-82 and I look at you like this shit gravy\
+Ball so hard, this shit weird\
+We ain’t even supposed to be here,\
+Ball so hard, since we here\
+It’s only right that we be fair\
+Psycho, I’m liable to go Michael\
+Take your pick, Jackson, Tyson, Jordan, Game 6\
+Ball so hard, got a broke clock, Rolleys that don’t tick tock\
+Audemars that’s losing time, hidden behind all these big rocks\
+Ball so hard, I’m shocked too,\
+I’m supposed to be locked up too\
+you escaped what I’ve escaped\
+You’d be in Paris getting fucked up too\
+Ball so hard, let’s get faded, Le Meurice for like 6 days\
+Gold bottles, scold models, spillin’ Ace on my sick J’s\
+So ball so hard, bitch behave, just might let you meet Ye,\
+Chi towns D. Rose, I’m movin’ the Nets to BK\
+Ball so hard muhfuckas wanna fine me\
+That shit cray [3x]\
+She said Ye can we get married at the mall?\
+I said look you need to crawl ‘fore you ball\
+Come and meet me in the bathroom stall\
+And show me why you deserve to have it all\
+Ball so hard\
+That shit cray (that shit cray), ain’t it Jay?\
+Ball so hard\
+What she order (what she order), fish filet\
+Ball so hard\
+Your whip so cold (whip so cold), this old thing\
+Ball so hard\
+Act like you’ll never be around motherfuckers like this again\
+Bougie girl, grab her hand\
+Fuck that bitch she don’t wanna dance\
+Excuse my French but I’m in France (I’m just sayin’)\
+Prince William’s ain’t do it right if you ask me\
+Cause I was him I would have married Kate & Ashley\
+What's Gucci my nigga?\
+What's Louis my killa?\
+What's drugs my deala?\
+What's that jacket, Margiela?\
+Doctors say I’m the illest\
+Cause I’m suffering from realness\
+Got my niggas in Paris\
+And they going gorillas, huh!\
+I don't even know what that means.\
+(No one knows what it means, but it's provocative)\
+No, it's not, it's gross\
+(It gets the people going!)\
+Ball so hard muhfuckas wanna fine me\
+Ball so hard muhfuckas wanna fine me\
+You are now watching the throne\
+Don’t let me get in my zone [3x]\
+These other niggas is lyin’\
+Actin’ like the summer ain’t mine\
+I got that hot bitch in my home\
+You know how many hot bitches I own?\
+Don’t let me get in my zone [4x]\
+The stars is in the building\
+They hands is to the ceiling\
+I know I’m bout to kill it\
+How you know, I got that feeling\
+You are now watching the throne\
+Don’t let me into my zone [2x]\
+I’m definitely in my zone"
+        },
+        {
+          name: "Otis",
+          lyrics: "It makes it easier, easier to bear, yeah\
+You won't regret it, no no\
+No, girls they don't forget it\
+LOVE is their home, happiness, yeah\
+Squee... squee... squee... squeeze her\
+Don't tease her, never leave her\
+Sounds so soulful, don't you agree?\
+OWW! Uhh\
+I invented swag\
+Poppin bottles, puttin supermodels in the cab\
+Proof...\
+I guess I got my swagger back, truth\
+New watch alert, Hublot's\
+Or the big face Roley, I got two of those\
+Arm out the window through the city, I maneuver slow\
+Cock back, snap back, see my cut through the holes; go\
+Damn Yeezy and Hov', where the hell you been?\
+Niggaz talkin real reckless, stuntmen\
+I adopted these niggaz, Phillip Drummond 'em\
+Now I'm 'bout to make 'em tuck they whole summer in\
+They say I'm crazy, well I'm 'bout to go dumb again\
+They ain't see me cause I pulled up in my other Benz\
+Last week I was in my other other Benz\
+Throw your diamonds up cause we in this bitch another 'gain\
+Yeah, photo shoot fresh, lookin like wealth\
+I'm 'bout to call the paparazzi on myself\
+Uh, live from the Mercer\
+Run up on Yeezy the wrong way I might murk ya\
+Flee in the G-450 I might surface\
+Political refugee asylum can be purchased\
+Uh, everything's for sale\
+I got five passports, I'm never goin to jail\
+I made Jesus Walks I'm never goin to hell\
+Couture level flow, it's never goin on sale\
+Luxury rap, the Hermes of verses\
+Sophisticated ignorance, write my curses in cursive\
+I get it custom, you a customer\
+You ain't 'custommed to goin through customs, you ain't been nowhere, huh?\
+And all the ladies in the house got 'em showin off\
+I'm done, I'll hit you up maña-naaaaaaaaaa!\
+Welcome to Havana\
+Smokin Cubanas with Castro in cabanas\
+Viva México, Cubano\
+Dominicano, all the plugs that I know\
+Drivin Benzes, with no benefits\
+Not bad, huh? For some immigrants\
+Build your fences, we diggin tunnels\
+Can't you see we gettin money up under you?\
+Can't you see the private jets flyin over you?\
+Maybach bumper sticker read What would Hova do?\
+Jay is chillin (uhh) 'Ye is chillin (uhh)\
+What more can I say? (What more can I say?) We killin 'em\
+Hold up, before we end this campaign\
+As you can see we done bodied the damn lanes\
+Lord, please let them accept the things they can't change\
+And pray that all of their pain be champagne\
+AHHHHHHHHHHHHHHHH! Scream it! [3X]"
+        },
+        {
+          name:"Gotta Have It",
+          lyrics:"Turn my headphones up\
+Louder\
+Uh-huh, uh-huh\
+(What you need, what, what you need)\
+(What you need, what, what you need)\
+Oh (I got what you need)\
+Hello, hello, hello, White America, assassinate my character\
+Money matrimony, yeah, they tryna break the marriage up\
+Who gon’ act phonier? Who gon’ try to embarrass ya?\
+I’ma need a day off, I think I’ll call Ferris up\
+Bueller had a Mueller, but I switched it for a Miele\
+‘Cause I’m richer, and prior to this shit was movin’ freebase\
+Had a conference with the DJs (Yeah), Puerto Rico three-days\
+(Parlay with them GDs, now they got our shit on replay)\
+Sorry I’m in pajamas, but I just got off the PJ\
+And last party we had, they shut down Prive\
+(Ain’t that where the Heat play?) Yep (Niggas hate ballers these days)\
+Ain’t that like LeBron James? (Ain’t that just like D-Wade)\
+(Wait)\
+(What you need, what, what you need)\
+(I got what you need, what, what you)\
+(What you need, what, what you need)\
+(I got what you need)\
+(Wassup, wassup, wassup, wassup)\
+Wassup, ma’fucka, where my money at?\
+You gon’ make me come down to your house where yo’ mummy at\
+Mummy wrap the kids, have ‘em cryin’ for they mummy back\
+Dummy that your daddy is, tell ‘em I just want my racks\
+(Racks on racks on racks) Racks\
+(Maybachs on bachs on bachs on bachs on bachs) Who in that?\
+(Oh shit, it’s just blacks on blacks on blacks)\
+(Hundred stack) How you get it? (Nigga, layin’ raps on tracks)\
+I wish I could give you this feelin’, I’m planking on a million\
+I’m riding through yo’ hood, you can bank I ain’t got no ceiling\
+(Made a left on Nostrand Ave.) Right (We in Bed Stuy)\
+Made a right on 79th, I’m coming down South Shore Drive\
+(I remain Chi-town) Brooklyn ‘til I die\
+(Take ‘em on home, take ‘em on home…)\
+(Take ‘em on home, take ‘em on home…)\
+(I got what you need, what, what you need)\
+(Take ‘em on home)\
+(What you need, what, what you need)\
+(I got what you need, what, what you need)\
+(Take ‘em on home, take ‘em on home…)\
+(Take ‘em on home, take ‘em on home…)\
+(Tryna hurt my name, huh?)"
+        },
+        {
+          name:"New Day",
+          lyrics:"Yeah, uh\
+(Sun in the sky)\
+(You know how I feel)\
+Me and the RZA connect\
+(Breeze driftin’ on by)\
+Yeah, me and the RZA connect\
+(Breeze driftin’ on by)\
+(It’s a new life for me)\
+(For me, for me)\
+(Oooh, oooh)\
+(And I’m feelin’ good)\
+And I’ll never let my son have an ego\
+He’ll be nice to everyone, wherever we go\
+I mean, I might even make ‘em be Republican\
+So everybody know he love white people\
+And I’ll never let ‘em leave his college girlfriend\
+And get caught up with the groupies in the whirlwind\
+And I’ll never let ‘em ever hit the telethon\
+I mean even if people dyin’ and the world ends\
+See, I just want ‘im to have an easy life, not like Yeezy life\
+Just want ‘im to be someone people like\
+Don’t want ‘im to be hated, all the time judged\
+Don’t be like your daddy that would never budge\
+And I’ll never let ‘im ever hit a strip club\
+I learned the hard way, that ain’t the place to get love\
+And I’ll never let his mom move to L.A.\
+Knowin’ she couldn’t take the pressure, now we all pray\
+(Sun in the sky)\
+(You know how I feel)\
+(Breeze driftin’ on by)\
+(Breeze driftin’ on by)\
+(It’s a new life for me)\
+Me and the RZA connect\
+(For me, for me)\
+Me and the RZA connect (Oooh, oooh)\
+(And I’m feelin’ good)\
+Sorry junior, I already ruined ya\
+‘Cause you ain’t even alive, paparazzi pursuin’ ya\
+Sins of a father make yo’ life ten times harder\
+I just wanna take ya to a barber\
+Bondin’ on charters, all the shit that I never did\
+Teach ya good values, so you cherish it\
+Took me 26 years to find my path\
+My only job is cuttin’ the time in half\
+So at 13 we’ll have our first drink together\
+Black bar mitzvahs, mazel tov, mogul talk\
+Look a man dead in his eyes\
+So he know you talk truth when you speak it, give your word, keep it\
+And if the day comes I only see him on the weekend\
+I just pray we was in love on the night that we conceived him\
+Promise to never leave him even if his mama tweakin’\
+Cause my dad left me and I promise never repeat him\
+Never repeat him, never repeat him\
+(Sun in the sky)\
+(You know how I feel)\
+(Breeze driftin’ on by)\
+(Breeze driftin’ on by)\
+(It’s a new life for me)\
+(For me, for me)\
+(Oooh, oooh)\
+(And I’m feelin’ good)\
+(Sun in the sky, you know how I feel)\
+(Breeze driftin’ on by, you know how I feel)\
+(Breeze driftin’ on by, you know how I feel)\
+(It’s a new life for me)\
+(It’s a new dawn, it’s a new day)\
+(It’s a new life for me)\
+(Oooh, oooh)\
+(And I’m feelin’…)\
+(Birds flyin’ high, you know how I feel)"
+        },
+        {
+          name: "Thats My Bitch",
+          lyrics: "Hello, can I speak to a, a, yeah you know who you are\
+Look, you had no idea what ya dealing with\
+Something on some of this realest shit\
+Something, something\
+Yeah. thats my bitch\
+Thats my bitch\
+Sh-shorty right there\
+Thats my bitch\
+Thats my bitch\
+I've been waiting for a long long time\
+Just to get off and throw my hands up high\
+And live my life\
+And live my life\
+Just to get off and throw my hands up high\
+I paid for them titties, get your own\
+It aint safe in the city, watch the throne\
+You say I care more about them basquion's, basquiats\
+She learning a new word, its yacht\
+Blew the World up as soon as I hit the club with her\
+Too Short called, told me I fell in love with her\
+Seen by actors, ball players and drug dealers\
+And some lesbians that never loved niggas\
+Twisted love story True Romance\
+Mary Magdalene from a pole dance\
+I'm a freak huh, rock star life\
+The second girl with us, thats our wife\
+Hey boys and girls, I got a new riddle\
+Who's the new old perv thats tryna play second fiddle\
+No disrespect, I'm not tryna belittle\
+But my dick worth money I put Monie in the middle\
+I've been waiting for a long long time\
+Just to get off and throw my hands up high\
+And live my life\
+And live my life\
+Just to get off and throw my hands up high, high, high, high\
+Silly little vixen, mixes 'til morning\
+Not swerving, oh, yeah\
+Swear you never strolled on a bottle of that potion\
+Stop motion, ooh, yeah\
+Go harder than a nigga for a nigga go figure\
+Told me keep my own money if we ever did split up\
+How can somethin' so gangsta be so pretty in pictures?\
+With jeans and a blazer and some Louboutin slippers\
+Uh, Picasso was alive he woulda made her\
+Thats right nigga Mona Lisa can't fade her\
+I mean Marilyn Monroe, she's quite nice\
+But why all the pretty icons always all white\
+Back to my Beyonces\
+You deserve 3 stacks for the Andre\
+Call Larry Gagosian, you belong in museums\
+You belong in Vintage clothes watching the whole building\
+You belong with niggas who used to be known for dope dealing\
+You too dope for any of those civilians\
+Now shoot trigga, stop looking at her tits\
+Get ya own dog, ya heard\
+Thats my bitch\
+I've been waiting for a long long time\
+Just to get off and throw my hands up high\
+And live my life\
+And live my life\
+Just to get off and throw my hands up high\
+Silly little vixen, mixes 'til morning\
+Not swerving, oh, yeah\
+Swear you never strolled on a bottle of that potion\
+Stop motion, ooh, yeah\
+You have no idea what you're dealing with\
+Something on some of this realest shit\
+Pop some nines, so I give you the Fifth\
+Something, something, yeah\
+That's my bitch, That's my bitch\
+Sh-shorty right there? That's my bitch\
+That's my bitch"
+        },
+        {
+          name: "Welcome to the Jungle",
+          lyrics:"Welcome to the jungle\
+Welcome to the jungle well\
+I asked her where she wanna be when she 25.\
+She turned around and looked at me and she said alive\
+Welcome to the jungle, welcome to the jungle well\
+Black Axl Rose, move halfs and wholes\
+Come down to the jungle, just ask for Hov\
+Move blocks and squares, move apples and pears\
+Work pots and pans, just to cop me some Airs\
+My uncle died, my daddy did too\
+Paralyzed by the pain, I can barely move\
+My nephew gone, my heart is torn\
+Sometimes I look to the sky, ask why I was born\
+My faith in God, every day is hard\
+Every night is worse, that's why I pray so hard\
+Why I pray so hard, this is crazy God\
+Just when I thought I had everything, I lost it all\
+So que sera, get a case of Ciroc\
+Let it chase the pain, before it goes too far\
+My dreams is big, reality set in\
+Let off a clip from a automatic weapon,\
+Through shots in the door, it died in Vegas\
+Though it fought so hard, I knew it wouldn't make it\
+I'm a tortured soul, I live in disguise\
+Rest in peace to the leader of the Jackson 5\
+I died in my sleep, I'm still Big Pimpin\
+I ball at the mall, beginning of the ending\
+Where the fuck is the sun?\
+It's been a while, momma, look at ya son\
+What happened to my smile?\
+My tears is tatted, my rag in my pocket\
+I'm just looking for love, I know somebody got it\
+Champagne for the pain, weed for the low\
+God damn I'm so high, where the fuck did I go?\
+I'm losing myself, I'm stuck in the moment\
+I look in the mirror, my only opponent\
+Where the fuck is the press? Where the fuck is the Press?\
+Either they know or don't care I'm fucking depressed\
+No crying in public, just lying to judges\
+Risking my life, I'm already dying, so fuck it well\
+Welcome to the jungle, welcome to the jungle well\
+Goddammit!"
+        },
+        {
+          name: "Who Gon Stop Me",
+          lyrics: "This is something like the Holocaust\
+Millions of our people lost\
+Bow our heads and pray to the Lord\
+Til I die I’ma fuckin’ ball\
+Now who gon’ stop me?\
+Who gon’ stop me huh?\
+Who gon’ stop me?\
+Who gon’ stop me huh?\
+Black cards, black cars,\
+Black on black, black broads\
+Whole lotta money in a black bag\
+Black strap, you know what that’s for?\
+Who gon’ stop me huh?\
+Who gon’ stop me, huh?\
+Yeah, who gon’ stop me?\
+No brakes, I need, State Farm\
+So many watches I need 8 arms\
+One neck but got 8 charms\
+Who gon’ stop me, huh?\
+Niggas talkin’, they bitch made, Ix-nay off my dicks-nay\
+That’s pig Latin, itch-bay\
+Who gon’ stop me huh?\
+Last night ain’t go so well\
+Got kicked up out the hotel\
+Got a little freaky like Marvin Albert\
+Yes! Tell Howard Cosell\
+You just a commentator, if you getting paper\
+Everybody I know from the hood got common haters\
+In some relations, you just supposed to say none\
+Heard she fucked the doorman\
+Well that’s cool I fucked the waitress\
+Heard Yeezy was racist, well, I guess that’s on one basis\
+I only like green faces\
+This is something like the Holocaust\
+Millions of our people lost\
+Bow our heads and pray to the Lord\
+Til I die I’ma fuckin’ ball\
+Now who gon’ stop me?\
+Who gon’ stop me huh?\
+Who gon’ stop me?\
+Who gon’ stop me huh?\
+Black cards, black cars\
+Black on black, black broads\
+Whole lotta money in a black bag\
+Black strap, you know what that’s for\
+Y’all weed purple, my money purple\
+Y’all Steve Urkel, I’m Oprah circle\
+I wrote the verse, that I hope will hurt you\
+Who gone stop me huh?\
+Beat the odds, best the Feds\
+It wouldn’t be wise, to bet against the kid\
+Start me broke, I bet I get rich\
+Night shift, 6 to 6\
+Gimmie one shot, one pot\
+I’ll show up in all white, wearing no socks\
+No ceiling, new coupe\
+They know I’m a dope boy\
+They don’t have no proof\
+I’m 3 steps removed, I know how to move\
+It’s looking like, I don’t know how to lose\
+I’m winning again, I’m at the Wynn\
+I’m at the table, I’m gambling,\
+Lucky lefty, I expect a 7,\
+I went through hell, I’m expecting heaven, I’m owed,\
+I’m throwed and I stuck to the G-code,\
+I’m here, oh yeah, I promise I ain’t going nowhere,\
+OK here, like a hare, like a rabbit, I like karats\
+I’m allergic to having bunny ears,\
+Like broke, like nope, like ha,\
+I ain’t no joke, I can’t be stopped\
+Like nope, like nope\
+To the beat Noah…\
+2 seats in the 911, no limit on the black card\
+Told y’all I was gonna go HAM, told the ocean was my backyard\
+No lies in my verses, please pardon all the curses\
+Shit gotta come some way, fuck, when you growing up worthless\
+Middle finger to my old life, special shout out to my old head\
+If it wasn’t for your advice, a nigga would have been so dead\
+I’m living life, til these niggas kill me\
+Turn this up, if these niggas feel me\
+I’m riding dirty, trying to get filthy\
+Pablo Picasso, Rothkos, Rilkes\
+Graduated to the MOMA\
+And I did all of this, without a diploma\
+Graduated from the corner\
+Y’all can play me for a motherfuckin’ fool if you wanna,\
+Street smart, and I’m book smart\
+Could have been a chemist, cause I cook smart\
+Only thing to stop me is me,\
+And I’ma stop when the hook start\
+Hold up\
+This is something like the Holocaust\
+Millions of our people lost\
+Bow our heads and pray to the lord\
+Til I die, I’ma fuckin’ ball\
+Now who gon’ stop me?\
+Who gon’ stop me huh?\
+Who gon’ stop me?\
+Who gon’ stop me huh?\
+Black cards, black cars\
+Black on black, black broads\
+Whole lotta money in a black bag\
+Black strap, you know what that’s for"
+        },
+        {
+          name: "Murder to Excellence",
+          lyrics: "Bloody murder, murder murder [x4]\
+The paper read murder, black on black murder\
+The paper read murder, black on black murder\
+This is to the memory of Danroy Henry\
+Too much enemy fire to catch a friendly\
+Strays from the same shade, nigga we on the same team\
+Giving you respect, I expect the same thing\
+All black everything, nigga you know my fresh code\
+I’m out here fightin’ for you, don’t increase my stress load\
+Niggas watchin’ the throne, very happy to be\
+Power to the people, when you see me, see you\
+And I’m from the murder capital, where they murder for capital\
+Heard about at least 3 killings this afternoon\
+Lookin’ at the news like damn I was just with him after school,\
+No shop class but half the school got a tool,\
+And I could die any day type attitude\
+Plus his little brother got shot reppin’ his avenue\
+It’s time for us to stop and re-define black power\
+41 souls murdered in 50 hours\
+The paper read murder, black on black murder,\
+The paper read murder, black on black murder again\
+Murder again…\
+Is it genocide?\
+Cause I can still hear his momma cry, know the family traumatized\
+Shots left holes in his face, bout piranha-size\
+The old pastor closed the cold casket\
+And said the church ain’t got enough room for all the tombs\
+It’s a war going on outside, we ain’t safe from\
+I feel the pain in my city wherever I go\
+314 soldiers died in Iraq\
+509 died in Chicago\
+I arrived on the day Fred Hampton died\
+Real niggas just multiply\
+And they say by 21 I was supposed to die\
+So I’m out here celebratin’ my post demise\
+If you put crabs in a barrel to insure your survival\
+You gon’ end up pulling down niggas that look just like you\
+What up blood? What up cos?\
+It’s all black, I love us\
+The paper read murder, black on black murder,\
+The paper read murder, black on black murder again\
+Black on black murder again\
+Black on black murder again\
+It’s a celebration of black excellence\
+Black tie, black Maybachs\
+Black excellence, opulence, decadence\
+Tuxes next to the president, I’m present\
+I dress in Dries and other boutique stores in Paris\
+In sheepskin coats, I silence the lamb\
+Do you know who I am Clarice?\
+No cheap cologne whenever I shh-shh\
+Success never smelled so sweet, I stink of success\
+The new black elite, they say my black card bear the mark of the beast\
+I repeat, my religion is the beat\
+My verse is like church, my Jesus piece, now please, domino, domino\
+Only spot a few blacks the higher I go\
+What’s up to Will, shoutout to O\
+That ain’t enough, we gon’ need a million more\
+Kick in the door, Biggie flow\
+I’m all dressed up with nowhere to go\
+Yea it’s all messed up when it’s nowhere to go\
+So we won’t take the time out til we reach the T O P\
+From paroles to hold G’s, sold keys, low keys\
+We like the promised land of the OG’s\
+In the past if you picture events like a black tie\
+What’s the last thing you expect to see, black guys\
+What’s the life expectancy for black guys?\
+The system’s working effectively, that’s why\
+I’ll be a real man, take care of your son\
+Every problem you had before this day is now done\
+New crib, watch a movie\
+Cause ain’t nothin’ on the news but the blues\
+Hit the mall, pick up some Gucci\
+Now ain’t nothin’ new but your shoes\
+Sunday morning, praise the Lord\
+You the girl that Jesus had been saving me for\
+So let’s savor this moment, and take it to the floor\
+Black excellence, truly yours"
+        },
+        {
+          name: "Made in America",
+          lyrics: "Sweet King Martin\
+Sweet Queen Coretta\
+Sweet Brother Malcolm\
+Sweet Queen Betty\
+Sweet Mother Mary\
+Sweet Father Joseph,\
+Sweet Jesus\
+We made it in America\
+Sweet baby Jesus, ooh\
+Oh sweet baby Jesus\
+We made it in America\
+Sweet baby Jesus, ooh\
+Oh, sweet baby Jesus,\
+We made it in America\
+I told my mama I was on the come up\
+She said you going to school I'll give you a summer\
+Then she met NO ID and gave me his number\
+10 years later she driving a Hummer\
+Niggas hustle every day for a beat from Ye\
+What I do? Turn around, gave them beats to Jay\
+And I'm rapping on the beat they was supposed to buy\
+I guess I'm getting high off my own supply\
+Downtown mixing fabrics trying to find the magic\
+Started a little blog just to get some traffic\
+Old folks'll tell you not to play in traffic\
+A million hits and the web crashes – damn!\
+South Park had 'em all laughing\
+Now all my niggas designing and we all swaggin'\
+Ignore the critics just to say we did it\
+This ain't no fashion show, motherfucker, we live it\
+Sweet King Martin\
+Sweet Queen Coretta\
+Sweet Brother Malcolm\
+Sweet Queen Betty\
+Sweet Mother Mary\
+Sweet Father Joseph,\
+Sweet Jesus\
+We made it in America\
+Sweet baby Jesus, ooh\
+Oh sweet baby Jesus\
+We made it in America\
+Sweet baby Jesus, ooh\
+Oh, sweet baby Jesus,\
+We made it in America\
+I pledge allegiance, uh, to my Grandma\
+For that banana pudding, our piece of Americana\
+Our apple pie was supplied through Arm & Hammer\
+Straight out the kitchen, shh don't wake Nana!\
+Built a republic, that still stands\
+I'm trying to lead a nation, to leave to my little man's\
+Or my daughter, so I'm boiling this water\
+The scales was lopsided, I'm just restoring order\
+Hold up, here comes grandma, what's up YaYa?\
+What's that smell? Oh I'm just boiling some agua\
+No papa, bad Santa\
+The streets raised me, pardon my bad manners\
+I got my liberty, chopping grams up\
+Street justice, I pray God understand us\
+I pledge allegiance to all the scramblers\
+This is the Star Spangled Banner\
+Sweet King Martin\
+Sweet Queen Coretta\
+Sweet Brother Malcolm\
+Sweet Queen Betty\
+Sweet Mother Mary\
+Sweet Father Joseph,\
+Sweet Jesus\
+We made it in America\
+Sweet baby Jesus, ooh\
+Oh sweet baby Jesus\
+We made it in America\
+Sweet baby Jesus, ooh\
+Oh, sweet baby Jesus,\
+We made it in America"
+        },
+        {
+          name: "Why I Love You",
+          lyrics: "Ooh, I love you so\
+But why I love you\
+I’ll never know\
+Picture if you will, that the throne was burning\
+Rome was burning, and I’m sitting in the corner all alone burning\
+Why does it always end up like this?\
+Something that we don’t determine\
+Same people that I fought for\
+That I fight for, that I ride for\
+That I live for, that I die for\
+Be the reason that these niggas is alive for\
+And they want me dead\
+But I’m so sorry but I just can’t die for you\
+But I can make em put their hands in the sky for you\
+We waiting for the fireworks like July 4th\
+Get fly more, get high more, cry boy, why for?\
+When the grief is over, beef is over, I’ll be fly when Easter’s over\
+I tried to teach niggas how to be kings\
+And all they ever wanted to be was soldiers\
+So the love is gone, til blood is drawn\
+So we no longer wear the same uniform\
+Fuck you squares, the circle got smaller\
+The castle got bigger, the walls got taller\
+And truth be told after all that said\
+Niggas still got love for you\
+Ooh, I love you so\
+But why I love you\
+I’ll never know\
+Showed love to you niggas\
+You ripped out my heart and you stepped on it\
+I picked up the pieces, before you swept on it\
+God damn this shit leaves a mess don’t it\
+Shit feelin’ like death don’t it\
+Charge it to the game, whatever’s left on it\
+I spent about a minute, maybe less on it\
+Fly pelican fly, turn the jets on it\
+But first I shall digress on it\
+Wasn’t I a good king?\
+(Maybe too much of a good thing, huh?)\
+Didn’t I spoil you? Me or the money, what you loyal to?\
+(Huh, I gave you my loyalty)\
+Made you royalty and royalties\
+(Took care of these niggas lawyer fees)\
+And this is how niggas rewardin’ me\
+(Damn\
+Ooh, I love you so\
+But why I love you\
+I’ll never know\
+Bussin’ at me, b-b-b-bussin’ at me\
+But I’m bullet proof, bitch you can’t get nothin’ past me\
+Got body armor (A nigga gotta watch the throne)\
+And I’m bussin’ back, so niggas in a glass house should not throw stones\
+What do you do when the love turns to hate?\
+(Gotta separate from these fuckin’ fakes)\
+Caesar didn’t see it so he ceased to exist\
+So the nigga that killed him had keys to his shit\
+Am I my brother’s keeper?\
+(Only if that nigga don’t creep up)\
+Got a pistol under my pillow\
+(I’ve never been a deep sleeper)\
+P-p-p-paranoia\
+(Cause the nigga that said he’ll…)\
+Blast for ya (Is now…)\
+Blastin’ for ya, that’s an assassin for ya\
+(These niggas got a shot they’ll shoot)\
+Please Lord (Forgive him)\
+For these niggas (Not know) What they, (Do) (Ooh)"
+        }
+        ]
+  },{
+    name: "Yeezus",
+    albumLoc: [890,550],
+    songs:[
+      {
+        name: "On Sight",
+        lyrics: "Yeezy season approaching\
+Fuck whatever y'all been hearing\
+Fuck what, fuck whatever y'all been wearing\
+The monster about to come alive again\
+Soon as I pull up and park the Benz\
+We get this bitch shaking like Parkinsons\
+Take my number and lock it in\
+Indian hair, no moccasins\
+It's too many hoes in this house of sin\
+Real nigga back in the house again\
+Black Timbs all on your couch again\
+Black dick all in your spouse again\
+And I know she like chocolate men\
+She got more niggas off than Cochran (Huh)\
+On sight\
+On sight\
+How much you wanna give a fuck?\
+Let me show you right now before you give it up\
+How much do I not give a fuck?\
+Let me show you right now before you give it up\
+He'll give us what we need\
+It may not be what we want\
+Baby girl tryna get a nut\
+And her girl tryna give it up\
+Chopped em both down\
+Don't judge 'em Joe Brown\
+One last announcement\
+No sports bra, let's keep it bouncin\
+Everybody wanna live at the top of the mountain\
+Took her to the bleau she tried to sip the fountain\
+That when David Grutman kicked her out\
+But I got her back in and put my dick in her mouth\
+On sight\
+On sight\
+Ugh, huh\
+Right now, right now\
+I need, I need\
+Right now"
+      },
+      {
+        
       }
       ]
   }
     
 ]
+
+
