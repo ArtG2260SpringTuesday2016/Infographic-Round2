@@ -1,7 +1,3 @@
-//Kanye: Me vs We
-var meWords = ["I","me","Kanye","West"]
-var weWords = ["you","we","youre","they", "he","she","them"]
-
 var albumNames= function(aDiscography) {
   //lists album names
   for (var i = 0; i < aDiscography.length; i++){
@@ -12,11 +8,14 @@ var albumNames= function(aDiscography) {
   }
 }
 
-
 // Splits a string into an array of words
 var splitWords = function(aStringOfLyrics) {
   return aStringOfLyrics.toLowerCase().split(" ");
 }
+
+//Kanye: Me vs We
+var meWords = splitWords("I me Kanye West")
+var weWords = splitWords("you we youre they he she them")
 
 // Takes in an array of words and gives frequency
 var tallyWordsUp = function(anArrayOfWords) {
@@ -48,15 +47,31 @@ var albumWordCount = function(anAlbum, aWord) {
   return wordCount;
 }
 
-var countsInAllAlbums = function(aDiscography) {
-  for (var i = 0; i < aDiscography.length; i++) {
-    console.log(aDiscography[i].name)
-    console.log('  mentions of "we": ', albumWordCount(aDiscography[i].songs, "we"));
-    console.log('  mentions of "me": ', albumWordCount(aDiscography[i].songs, "me"));
+var countsOfAnAlbum = function (anAlbum, wordList) {
+  var albumCount = {};
+  albumCount[anAlbum.name] = {};
+
+  for (var word in wordList) {
+    for (var song in anAlbum.songs) {
+      albumCount[anAlbum.name][wordList[String(word)]] = albumWordCount(anAlbum.songs, wordList[String(word)]);
+    }
   }
+  return albumCount;
 }
 
-countsInAllAlbums(discography);
+var countsInAllAlbums = function(aDiscography, wordList) {
+  var discographyCount = []
+
+  for (var album in aDiscography) {
+    discographyCount.push(countsOfAnAlbum(aDiscography[album], wordList));
+  }
+  return discographyCount;
+}
+
+console.log(countsInAllAlbums(discography, meWords))
+console.log(countsInAllAlbums(discography, weWords))
+
+
 
 var hoverOnAlbums = function(aDiscography) {
     for (var i = 0; i < aDiscography.length; i++){
