@@ -28,18 +28,18 @@ for (var i=0; i <= 16; i++){
 		noStroke;
 	}
 
-	var check = collidePointCircle(mouseX,mouseY, 176, 460, 10, 10); //see if the mouse is in the rect
+	var check1 = collidePointCircle(mouseX,mouseY, 176, 460, 10, 10); //see if the mouse is in the rect
 
-	if(check){ //change color!
+	if(check1){ //change color!
 	  noStroke;
 		words["text"] = "100 Million";
     words["x"] = 150;
     words["y"] = 450;
 	}
 
-	var check = collidePointCircle(mouseX,mouseY, 268, 430, 10, 10); //see if the mouse is in the rect
+	var check2 = collidePointCircle(mouseX,mouseY, 268, 430, 10, 10); //see if the mouse is in the rect
 
-	if(check){ //change color!
+	if(check2){ //change color!
 	  noStroke;
 		words["text"] = "130 Million";
     words["x"] = 245;
@@ -47,50 +47,53 @@ for (var i=0; i <= 16; i++){
 	}
 
 
-	var check = collidePointCircle(mouseX,mouseY, 337, 410, 10, 10); //see if the mouse is in the rect
+	var check3 = collidePointCircle(mouseX,mouseY, 337, 410, 10, 10); //see if the mouse is in the rect
 
-	if(check){ //change color!
+	if(check3){ //change color!
 	  noStroke;
 		words["text"] = "150 Million";
     words["x"] = 310;
     words["y"] = 400;
 	}
 
-	var check = collidePointCircle(mouseX,mouseY, 517, 360, 10, 10); //see if the mouse is in the rect
+	var check4 = collidePointCircle(mouseX,mouseY, 517, 360, 10, 10); //see if the mouse is in the rect
 
-	if(check){ //change color!
+	if(check4){ //change color!
 	  noStroke;
 		words["text"] = "200 Million";
     words["x"] = 500;
     words["y"] = 345;
 	}
 
-	var check = collidePointCircle(mouseX,mouseY, 751, 260, 10, 10); //see if the mouse is in the rect
+	var check5 = collidePointCircle(mouseX,mouseY, 751, 260, 10, 10); //see if the mouse is in the rect
 
-	if(check){ //change color!
+	if(check5){ //change color!
 	  noStroke;
 		words["text"] = "300 Million";
     words["x"] = 730;
     words["y"] = 245;
 	}
 
-		var check = collidePointCircle(mouseX,mouseY, 889, 160, 10, 10); //see if the mouse is in the rect
+	var check6 = collidePointCircle(mouseX,mouseY, 889, 160, 10, 10); //see if the mouse is in the rect
 
-	if(check){ //change color!
+	if(check6){ //change color!
 	  noStroke;
 		words["text"] = "400 Million";
     words["x"] = 860;
     words["y"] = 150;
+    
+	}	
+	
+	var check7 = collidePointRect(mouseX,mouseY, xPosition, yPosition+datayear, rectWidth, -datayear); //see if the mouse is in the rect
+
+	if(check7){
+	  noStroke;
+	  words["text"] = data[i];
+		words["x"] = 500;
+		words["y"] = 100;
 	}
 
   text(words["text"], words["x"], words["y"])
-
-	var check = collidePointRect(mouseX,mouseY, xPosition, yPosition+datayear, rectWidth, -datayear); //see if the mouse is in the rect
-
-	if(check){
-	  noStroke;
-		text(data[i],500,100);
-	}
 
     if (0<= i && i <=3){
       fill(i*100,50,0);
