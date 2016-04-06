@@ -5,7 +5,7 @@
     return (cityDataNumber/3000)+50;
   }
   var cityCrimeForGraph = function(cityDataNumber){
-    return cityDataNumber/4;
+    return height - (cityDataNumber/4)-50;
   }
   var dotSize = function(cityDataNumber){
     return cityDataNumber
@@ -15,15 +15,17 @@
     
     var coordXPop = cityPopulationForGraph(cityDataObject.Population);
     var coordYCrime = cityCrimeForGraph(cityDataObject.ViolentCrime);
-    var name = dotSize(7)
+    var name = dotSize(8)
     
+    fill(200)
     ellipse(coordXPop,coordYCrime,name,name)
   }
  
   
 function setup() {
-  createCanvas(1000,600)
-  
+  textFont("Courier") 
+  createCanvas(1050,600)
+  background(102,130,132)
 
   for (var i = 0; i < cityData.length; i++){
     makesDataPoint(cityData[i])
@@ -32,24 +34,54 @@ function setup() {
   
 
 
-  textSize(20)
+  textSize(30)
+  fill(73,55,54)
+  strokeWeight(2)
+  textStyle(BOLD)
+  stroke(200)
   text("City Population", 400,575)
-  text("Crime Rate", 20,250,20,100)
+  text("Crime Rate", 10,250,20,100)
+  
+  strokeWeight(1)
+  textSize(20)
+  text("42",85,535)
+  text("2,120",47,30)
+  
+  text("180,000",112,557)
+  text("2,940,000",925,557)
 }
 
-var dataPointText = "Hover over points for more info"
+var dataPointText = "              City Crime Data: 2014                          Hover Over Points for More Information"
 
 function draw(){
+  
   var hit=false;
   for (var i = 0; i < cityData.length; i++){
-   hit = collidePointCircle(mouseX,mouseY,(cityData[i].Population/3000)+50,cityData[i].ViolentCrime/4,7,7)
+   hit = collidePointCircle(mouseX,mouseY,(cityData[i].Population/3000)+50,height-(cityData[i].ViolentCrime/4)-50,8,8)
   
   if (hit){
     dataPointText =
-    "Name: " + cityData[i].City + "\n" + 
-    "Population: " + cityData[i].Population + "\n" +
-    "Violent Crime Rate: " + cityData[i].ViolentCrime
+    "Name: " + cityData[i].City + ", " + cityData[i].State + "\n" + 
+    "Population: " + cityData[i].Population + " People" + "\n" +
+    "Violent Crime Rate: " + cityData[i].ViolentCrime + " Cases per 100,000 People"
   }
   }
-  text(dataPointText,500,400)
+  fill(185,215,217)
+  noStroke()
+  rect(430,60,500,115,40)
+  fill(123,59,59)
+  textSize(15)
+  textStyle(NORMAL)
+  text(dataPointText,450,90,500,120)
+  
+  strokeWeight(2)
+  stroke(123,59,59)
+  line(110,20,110,580)
+  line(20,540,1030,540)
+  
+  
+  //noFill()
+  //ellipse((180000/3000)+50,height - (42/4)-50,8,8)
+  //ellipse((180000/3000)+50,height - (2120/4)-50,8,8)
+  //ellipse((2940000/3000)+50,height - (42/4)-50,8,8)
 }
