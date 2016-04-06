@@ -14,37 +14,21 @@ function setup() {
   textFont("Avenir");
   text("Which artist had the most Billboard Weekly hits from 1970-2016?", 30, 60)
 
-  
-  
- var visTotals = function (obj) { 
+ var visTotals = function (obj) {
    var j = 0;
- for (var prop in obj){
+ for (var prop in obj) {
       fill ("#bada55")
       strokeWeight(0)
       var barHeight = obj[prop];
-      var rectWidth=3;
-      rectHeight=barHeight * -10;
-      var spacing=j * (1 + rectWidth);
+      var rectWidth = 3;
+      rectHeight = barHeight * -10;
+      var spacing = j * (1 + rectWidth);
       rect(spacing, 500, rectWidth, rectHeight);
-      j++
-      
+      j++;
     }
-    
+
   }
   visTotals(obj);
-
-}
-
-this.isMouseOnRect = function(x) {
-  if (collidePointRect(mouseX,mouseY, spacing, 500, rectWidth, rectHeight)){
-   dataValueText = this.thehits
-    }
-
-
-this.render = function(iterator) {
-    var x = iterator * 10;
-    this.isMouseOnRect(x);
-  }
 }
 
 function draw() {
@@ -52,5 +36,3 @@ function draw() {
   textFont("Avenir");
   text(dataValueText, 30, 100);
 }
-
-
