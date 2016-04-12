@@ -1,0 +1,2 @@
+var colorb = "Air Force blue Aliceblue Ao Azure Azure Babyblue Bice Bleuceleste Bleude France (colour) BlueinJudaism Bluegray Bluegreen Cambridge Blue"
+var colorr = "red pink cadmium candy cardinal carmine cerise chestnut coquelicot coral crimson gules indianred lava magenta mahogany maroon oxblood perinone"
